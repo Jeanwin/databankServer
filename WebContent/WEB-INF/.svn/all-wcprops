@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/was_catonline/!svn/ver/1259/sourcecode/trunk/databankServer/WebContent/WEB-INF
+END
+crossdomain.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/was_catonline/!svn/ver/50/sourcecode/trunk/databankServer/WebContent/WEB-INF/crossdomain.xml
+END
+vwDispatcherServlet-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/was_catonline/!svn/ver/50/sourcecode/trunk/databankServer/WebContent/WEB-INF/vwDispatcherServlet-servlet.xml
+END
+dispatcherServlet-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/was_catonline/!svn/ver/1212/sourcecode/trunk/databankServer/WebContent/WEB-INF/dispatcherServlet-servlet.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/was_catonline/!svn/ver/1259/sourcecode/trunk/databankServer/WebContent/WEB-INF/web.xml
+END

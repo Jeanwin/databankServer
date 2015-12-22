@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <sheet lan="en_US">
+        <sheetName>Implemented</sheetName>
+        <sheetTitle>Design Guideline regarding Technical Standards and Legislations in China</sheetTitle>
+        <selectedItemTitle>Items Information</selectedItemTitle>
+        <dataSummaryTitle>Design Guideline</dataSummaryTitle>
+        <defaultFont>Arial</defaultFont>
+        <sumColumn>11</sumColumn>
+        <columnSize>25</columnSize>
+        <titles>
+            <title>
+                <key>standard_no</key>
+                <desc>No.</desc>
+                <column>1</column>
+            </title>
+            <title>
+                <key>title_en</key>
+                <desc>Standard Name</desc>
+                <column>4</column>
+            </title>
+             <title>
+                <key>execute_date_str</key>
+                <desc>Implementation Date for New Type</desc>
+                <column>2</column>
+            </title>
+            <title>
+                <key>online_auto_execute_date_str</key>
+                <desc>Implementation Date for In-Production</desc>
+                <column>2</column>
+            </title>
+            <title>
+                <key>remark</key>
+                <desc>Remark</desc>
+                <column>1</column>
+            </title>
+        </titles>
+    </sheet>
+    <sheet lan="zh_CN">
+        <sheetName>标准已实施</sheetName>
+        <sheetTitle>基于中国技术性标准法规的设计指导目录</sheetTitle>
+        <selectedItemTitle>已选项</selectedItemTitle>
+        <dataSummaryTitle>标准法规目录</dataSummaryTitle>
+        <defaultFont>宋体</defaultFont>
+        <sumColumn>11</sumColumn>
+        <columnSize>25</columnSize>
+        <titles>
+            <title>
+                <key>standard_no</key>
+                <desc>标准号</desc>
+                <column>1</column>
+            </title>
+            <title>
+                <key>title_ch</key>
+                <desc>标准名称</desc>
+                <column>4</column>
+            </title>
+             <title>
+                <key>execute_date_str</key>
+                <desc>新车型实施日期</desc>
+                <column>2</column>
+            </title>
+            <title>
+                <key>online_auto_execute_date_str</key>
+                <desc>在产车实施日期</desc>
+                <column>2</column>
+            </title>
+            <title>
+                <key>remark</key>
+                <desc>备注</desc>
+                <column>1</column>
+            </title>
+        </titles>
+    </sheet>
+</Configuration>

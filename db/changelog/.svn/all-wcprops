@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/was_catonline/!svn/ver/1378/sourcecode/trunk/databankServer/db/changelog
+END
+db.changelog-2015.3.1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/was_catonline/!svn/ver/1324/sourcecode/trunk/databankServer/db/changelog/db.changelog-2015.3.1.xml
+END
+db.changelog-2015.3.2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/was_catonline/!svn/ver/1378/sourcecode/trunk/databankServer/db/changelog/db.changelog-2015.3.2.xml
+END
+db.changelog-2015.3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/was_catonline/!svn/ver/1178/sourcecode/trunk/databankServer/db/changelog/db.changelog-2015.3.xml
+END
+db.changeLog-master.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/was_catonline/!svn/ver/1370/sourcecode/trunk/databankServer/db/changelog/db.changeLog-master.xml
+END
+masterData.sql
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/was_catonline/!svn/ver/1178/sourcecode/trunk/databankServer/db/changelog/masterData.sql
+END
+updateFieldChinese.sql
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/was_catonline/!svn/ver/1327/sourcecode/trunk/databankServer/db/changelog/updateFieldChinese.sql
+END
+db.changelog-3.0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/was_catonline/!svn/ver/1180/sourcecode/trunk/databankServer/db/changelog/db.changelog-3.0.xml
+END
+db.changelog-3.1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/was_catonline/!svn/ver/1180/sourcecode/trunk/databankServer/db/changelog/db.changelog-3.1.xml
+END

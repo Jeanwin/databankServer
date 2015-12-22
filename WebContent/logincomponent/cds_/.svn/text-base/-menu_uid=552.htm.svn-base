@@ -1,0 +1,151 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>VOLKSWAGEN Group China</title>
+		<link rel="stylesheet" type="text/css" href="../style_en.css" />
+		<script type="text/javascript" src="../navi_control.js"
+			charset="gb2312"></script>
+
+	</head>
+
+	<body>
+		<div id="mainContainer" class="mainContainer">
+
+			<div id="topHeadline">
+				<img src="../images/common/vwlogo.jpg" />
+			</div>
+			<!--topHeadline-->
+			<div id="mainHeadline">
+				<div
+					style="background: url(images/common/mainheadline.jpg); height: 192px; width: 1000px; margin-left: -3px; float: left;">
+					<div
+						style="width: 188px; height: 192px; text-align: left; line-height: 10px; /* 2009-7-7 Add ! */ filter: alpha(opacity =             60); background-color: #678c9e; float: left;">
+						<ul
+							style="margin-top: 10px; margin-left: 1px; font-size: 11px; font-color: white;">
+							<li
+								style="margin-top: 10px; margin-left: 14px; color: #ffffff; font-size: 11px; font-color: #FFFFFF; position: relative;">
+								<a href="logincomponent/cds_/-menu_uid=551.htm" target='_self'><font
+									color="#FFFFFF">News</font> </a>
+							</li>
+							<li
+								style="margin-top: 10px; margin-left: 14px; color: #ffffff; font-size: 11px; font-color: #FFFFFF; position: relative;">
+								<a href=" -menu_uid=551.htm" target='_self'><font
+									color="#FFFFFF">How we Work</font> </a>
+							</li>
+							<li
+								style="margin-top: 10px; margin-left: 14px; color: #ffffff; font-size: 11px; font-color: #FFFFFF; position: relative;">
+								<a href=" -menu_uid=551.htm" target='_self'><font
+									color="#FFFFFF"> About ALO</font> </a>
+							</li>
+							<li
+								style="margin-top: 10px; margin-left: 14px; color: #ffffff; font-size: 11px; font-color: #FFFFFF; position: relative;">
+								<a href=" -menu_uid=551.htm" target='_self'><font
+									color="#FFFFFF">Contact</font> </a>
+							</li>
+							<li
+								style="margin-top: 10px; margin-left: 14px; color: #ffffff; font-size: 11px; font-color: #FFFFFF; position: relative;">
+								<a href=" -menu_uid=550.htm" target='_self'><font
+									color="#FFFFFF">Back to Homepage</font> </a>
+							</li>
+							<li
+								style="margin-top: 10px; margin-left: 14px; color: #ffffff; font-size: 11px; font-color: #FFFFFF; position: relative;">
+								<a href="../../vw/index.html" target='_self'><font
+									color="#FFFFFF">Login The System</font> </a>
+							</li>
+						</ul>
+					</div>
+					<!--mainHeadlineMenu-->
+				</div>
+			</div>
+			<!--mainHeadline-->
+
+			<div id="mainContent">
+
+				<div id="contentLeft">
+					<ul>
+						<li>
+							<a href="-menu_uid=390.htm"
+								tppabs="http://www.vgc.com.cn/cds/?menu_uid=390">中文</a>
+						</li>
+						<li>
+							English
+						</li>
+					</ul>
+				</div>
+				<!--contentLeft-->
+
+				<div id="contentCenter">
+					<div id='contentTitle'>
+						About ALO
+					</div>
+					<!--contentTitle-->
+					<div class='contentText'>
+						<p>
+							The design and production of motor vehicles, as well as the
+							manufacturers' responsibilities following the production process,
+							are regulated by a host of legal requirements. In addition,
+							world-wide product marketing demands knowledge of world-wide
+							legislation. For these purposes, the information system
+							"Automotive Legislation Online" provides the user with a wealth
+							of easily accessible international regulatory information.
+						</p>
+					</div>
+
+
+				</div>
+				<!--contentCenter-->
+
+				<div id="contentRight">
+
+					<div id='searchRight'>
+						<div style="clear: both;">
+							<div style="float: left; width: 50px; text-align: right">
+								<span class='searchLabel'>User:</span>
+							</div>
+							<div style="float: left; padding-top: 9px;">
+								<input id='usermane' class="textinput" type='text' />
+							</div>
+						</div>
+						<div style="clear: both;">
+							<div style="float: left; width: 50px; text-align: right">
+								<span class='searchLabel'>Pass:</span>
+							</div>
+							<div style="float: left; padding-top: 9px;">
+								<input id='password' class="textinput" type='text' />
+								<input id='searchSubmit' type='submit' value=''
+									onclick='return searchGroupCon(usermane,password);' />
+							</div>
+						</div>
+					</div>
+					<!--searchRight-->
+					<ul>
+						<li>
+							<a href="" target='_blank'>Volkswagen in China</a>
+						</li>
+
+					</ul>
+
+
+				</div>
+				<!--contentRight-->
+
+			</div>
+			<!--mainContent-->
+
+			<div id="mainFooter">
+
+				<span> &copy;Volkswagen 2009 | <a href="">Contact Us</a> | <a
+					href="">Legal Statement</a> | <a href="">Sitemap</a> </span>
+
+				<a target='_blank'>VOLKSWAGEN AG</a> |
+				<a target='_blank'>Volkswagen International</a>
+			</div>
+			<!--mainFooter-->
+
+		</div>
+		<!--mainContainer-->
+
+	</body>
+</html>

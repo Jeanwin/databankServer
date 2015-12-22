@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/was_catonline/!svn/ver/1305/sourcecode/trunk/databankServer/src/conf/dev
+END
+migration.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/was_catonline/!svn/ver/1204/sourcecode/trunk/databankServer/src/conf/dev/migration.properties
+END
+log4j.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/was_catonline/!svn/ver/1259/sourcecode/trunk/databankServer/src/conf/dev/log4j.dtd
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/was_catonline/!svn/ver/1305/sourcecode/trunk/databankServer/src/conf/dev/log4j.xml
+END

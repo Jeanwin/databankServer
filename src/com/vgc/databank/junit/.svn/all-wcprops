@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/was_catonline/!svn/ver/1293/sourcecode/trunk/databankServer/src/com/vgc/databank/junit
+END
+TestDataInfoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/was_catonline/!svn/ver/745/sourcecode/trunk/databankServer/src/com/vgc/databank/junit/TestDataInfoService.java
+END
+TestBatchDownloadUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/was_catonline/!svn/ver/745/sourcecode/trunk/databankServer/src/com/vgc/databank/junit/TestBatchDownloadUtil.java
+END
+TestMonitorService.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/was_catonline/!svn/ver/745/sourcecode/trunk/databankServer/src/com/vgc/databank/junit/TestMonitorService.java
+END
+TestBatchDownloadService.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/was_catonline/!svn/ver/745/sourcecode/trunk/databankServer/src/com/vgc/databank/junit/TestBatchDownloadService.java
+END
+TestRightService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/was_catonline/!svn/ver/1293/sourcecode/trunk/databankServer/src/com/vgc/databank/junit/TestRightService.java
+END

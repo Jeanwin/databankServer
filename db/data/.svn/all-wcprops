@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/was_catonline/!svn/ver/969/sourcecode/trunk/databankServer/db/data
+END
+data_db_all.sh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/was_catonline/!svn/ver/774/sourcecode/trunk/databankServer/db/data/data_db_all.sh
+END
+B_CLASS_FIELD_050122.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/was_catonline/!svn/ver/545/sourcecode/trunk/databankServer/db/data/B_CLASS_FIELD_050122.sql
+END
+B_COMMONDATA.sql
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/was_catonline/!svn/ver/774/sourcecode/trunk/databankServer/db/data/B_COMMONDATA.sql
+END
+B_CLASS_FIELD_050109.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/was_catonline/!svn/ver/443/sourcecode/trunk/databankServer/db/data/B_CLASS_FIELD_050109.sql
+END
+U_PORTAL_REFROLEFUNC_050122.sql
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/was_catonline/!svn/ver/777/sourcecode/trunk/databankServer/db/data/U_PORTAL_REFROLEFUNC_050122.sql
+END
+data_db.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/was_catonline/!svn/ver/959/sourcecode/trunk/databankServer/db/data/data_db.sh
+END
+U_PORTAL_REFROLEFUNC_050205.sql
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/was_catonline/!svn/ver/922/sourcecode/trunk/databankServer/db/data/U_PORTAL_REFROLEFUNC_050205.sql
+END
+B_COMMONDATA_050122.sql
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/was_catonline/!svn/ver/570/sourcecode/trunk/databankServer/db/data/B_COMMONDATA_050122.sql
+END
+U_PORTAL_FUNC.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/was_catonline/!svn/ver/969/sourcecode/trunk/databankServer/db/data/U_PORTAL_FUNC.sql
+END
+U_PORTAL_REFROLEUSER.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/was_catonline/!svn/ver/774/sourcecode/trunk/databankServer/db/data/U_PORTAL_REFROLEUSER.sql
+END
+U_PORTAL_ROLE.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/was_catonline/!svn/ver/774/sourcecode/trunk/databankServer/db/data/U_PORTAL_ROLE.sql
+END
+U_PORTAL_FUNC_050122.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/was_catonline/!svn/ver/774/sourcecode/trunk/databankServer/db/data/U_PORTAL_FUNC_050122.sql
+END
+B_CLASS_FIELD.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/was_catonline/!svn/ver/774/sourcecode/trunk/databankServer/db/data/B_CLASS_FIELD.sql
+END
+U_PORTAL_REFROLEUSER_050122.sql
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/was_catonline/!svn/ver/774/sourcecode/trunk/databankServer/db/data/U_PORTAL_REFROLEUSER_050122.sql
+END
+U_PORTAL_FUNC_050205.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/was_catonline/!svn/ver/921/sourcecode/trunk/databankServer/db/data/U_PORTAL_FUNC_050205.sql
+END
+U_PORTAL_FUNC_050216.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/was_catonline/!svn/ver/969/sourcecode/trunk/databankServer/db/data/U_PORTAL_FUNC_050216.sql
+END
+U_PORTAL_ROLE_050122.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/was_catonline/!svn/ver/774/sourcecode/trunk/databankServer/db/data/U_PORTAL_ROLE_050122.sql
+END
+U_PORTAL_REFROLEFUNC.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/was_catonline/!svn/ver/926/sourcecode/trunk/databankServer/db/data/U_PORTAL_REFROLEFUNC.sql
+END

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.3.xsd http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+     <changeSet author="victor" id="2015.2.1">
+        <createTable tableName="B_UPLOAD_FILES">
+            <column name="UUID" type="VARCHAR2(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="USER_ID" type="VARCHAR2(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FILE_NAME" type="VARCHAR2(1000)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FILE_ORIGINAL_NAME" type="VARCHAR2(1000)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FILE_UPLOAD_TIME" type="VARCHAR2(100)"/>
+        </createTable>
+    </changeSet>
+	<changeSet author="Administrator (generated)" id="2015.2.2">
+        <addPrimaryKey columnNames="UUID" constraintName="B_UPLOAD_FILES_PK" tableName="B_UPLOAD_FILES"/>
+    </changeSet>
+</databaseChangeLog>

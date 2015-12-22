@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/was_catonline/!svn/ver/1370/sourcecode/trunk/databankServer/src/conf
+END
+genExcelConf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/was_catonline/!svn/ver/494/sourcecode/trunk/databankServer/src/conf/genExcelConf.xml
+END
+temlate.xls
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/was_catonline/!svn/ver/566/sourcecode/trunk/databankServer/src/conf/temlate.xls
+END
+contactUs.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/was_catonline/!svn/ver/103/sourcecode/trunk/databankServer/src/conf/contactUs.xml
+END
+aop-beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/was_catonline/!svn/ver/1212/sourcecode/trunk/databankServer/src/conf/aop-beans.xml
+END
+plugins-beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/was_catonline/!svn/ver/1212/sourcecode/trunk/databankServer/src/conf/plugins-beans.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/was_catonline/!svn/ver/1212/sourcecode/trunk/databankServer/src/conf/applicationContext.xml
+END
+beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/was_catonline/!svn/ver/1212/sourcecode/trunk/databankServer/src/conf/beans.xml
+END
+db-beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/was_catonline/!svn/ver/1318/sourcecode/trunk/databankServer/src/conf/db-beans.xml
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/was_catonline/!svn/ver/1214/sourcecode/trunk/databankServer/src/conf/hibernate.cfg.xml
+END

@@ -1,0 +1,4 @@
+delete from U_PORTAL_REFROLEUSER where UUID = '44401' and ROLEUUID = '44401';
+insert into U_PORTAL_REFROLEUSER(UUID,ROLEUUID,ROLECODE,ROLENAME,USERUUID,USERCODE,USERNAME) values('44401','44401',null,'Report','1143','xiaolishou','Lishou Xiao');
+
+commit;

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/was_catonline/!svn/ver/1378/sourcecode/trunk/databankServer/src/com/vgc/databank/service
+END
+DataInfoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/was_catonline/!svn/ver/1378/sourcecode/trunk/databankServer/src/com/vgc/databank/service/DataInfoService.java
+END
+IRightService.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/was_catonline/!svn/ver/1117/sourcecode/trunk/databankServer/src/com/vgc/databank/service/IRightService.java
+END
+BatchDownloadUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/was_catonline/!svn/ver/841/sourcecode/trunk/databankServer/src/com/vgc/databank/service/BatchDownloadUtil.java
+END
+MonitorService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/was_catonline/!svn/ver/1259/sourcecode/trunk/databankServer/src/com/vgc/databank/service/MonitorService.java
+END
+LoginServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/was_catonline/!svn/ver/841/sourcecode/trunk/databankServer/src/com/vgc/databank/service/LoginServlet.java
+END
+DownloadListService.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/was_catonline/!svn/ver/1332/sourcecode/trunk/databankServer/src/com/vgc/databank/service/DownloadListService.java
+END
+SearchService.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/was_catonline/!svn/ver/1370/sourcecode/trunk/databankServer/src/com/vgc/databank/service/SearchService.java
+END
+StaticFunUUID.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/was_catonline/!svn/ver/814/sourcecode/trunk/databankServer/src/com/vgc/databank/service/StaticFunUUID.java
+END
+ClassFieldService.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/was_catonline/!svn/ver/1259/sourcecode/trunk/databankServer/src/com/vgc/databank/service/ClassFieldService.java
+END
+BatchDownloadService.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/was_catonline/!svn/ver/1373/sourcecode/trunk/databankServer/src/com/vgc/databank/service/BatchDownloadService.java
+END
+GenerateExcelService.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/was_catonline/!svn/ver/1259/sourcecode/trunk/databankServer/src/com/vgc/databank/service/GenerateExcelService.java
+END
+InformationPublishService.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/was_catonline/!svn/ver/1378/sourcecode/trunk/databankServer/src/com/vgc/databank/service/InformationPublishService.java
+END
+InformationPublishInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/was_catonline/!svn/ver/841/sourcecode/trunk/databankServer/src/com/vgc/databank/service/InformationPublishInterface.java
+END
+RightService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/was_catonline/!svn/ver/1259/sourcecode/trunk/databankServer/src/com/vgc/databank/service/RightService.java
+END
+PortalFuncService.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/was_catonline/!svn/ver/770/sourcecode/trunk/databankServer/src/com/vgc/databank/service/PortalFuncService.java
+END
+GanttService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/was_catonline/!svn/ver/1293/sourcecode/trunk/databankServer/src/com/vgc/databank/service/GanttService.java
+END

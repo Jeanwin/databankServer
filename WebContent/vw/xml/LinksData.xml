@@ -1,0 +1,159 @@
+<node showname="State Council of PRC" nodename="State Council of PRC">
+	<node showname="MIIT"
+		nodename="Ministry of Industy and Information Technology (MIIT)">
+		<node showname="DME" nodename="Department of Mechanical Equipment"
+			url="http://www.baidu.com">
+			<node showname="CATARC"
+				nodename="China Automotive Technology &amp; Research Center (CATARC)"
+				url="http://www.baidu.com">
+			</node>
+			<node showname="CVTSC"
+				nodename="Chinese Vehicle Technical Service Center (CVTSC)"
+				url="http://www.baidu.com">
+			</node>
+			<node showname="C-NCAP" nodename="C-NCAP"
+				url="http://www.baidu.com">
+			</node>
+		</node>
+		<node showname="DIP" nodename="Department of Industry Policy"
+			url="http://www.google.com">
+		</node>
+	</node>
+	<node showname="NDRC"
+		nodename="National Development and Reform Commission (NDRC)">
+		<node showname="DOIC" nodename="Department of Industry Coordination"
+			url="http://www.qq.com">
+			<node showname="CAAM"
+				nodename="China Association for Automotive Manufactures (CAAM)"
+				url="http://www.baidu.com">
+			</node>
+			<node showname="SAE-China"
+				nodename="China Society of Automotive Engineering (SAE-China)"
+				url="http://www.baidu.com">
+			</node>
+			<node showname="Sinopec"
+				nodename="China Petroleum &amp; Chemical Corporation (Sinopec)"
+				url="http://www.baidu.com">
+			</node>
+			<node showname="PetroChina"
+				nodename="China National Petroleum Corporation (PetroChina)"
+				url="http://www.baidu.com">
+			</node>
+		</node>
+		<node showname="Energy Bureau" nodename="Energy Bureau"
+			url="http://www.126.com">
+		</node>
+	</node>
+	<node showname="MPS" nodename="Ministry of Public Security (MPS)">
+		<node showname="TMB" nodename="Traffic Management Bureau">
+			<node showname="RVMD"
+				nodename="Road Vehicle Management Devision"
+				url="http://www.163.com">
+				<node showname="TMRI"
+					nodename="Institute of Traffic Management,MPS (TMRI) "
+					url="http://www.yahoo.com">
+				</node>
+			</node>
+			<node showname="SATMD"
+				nodename="Science and Technology Management Devision"
+				url="http://www.sina.com">
+			</node>
+		</node>
+	</node>
+
+	<node showname="AQSIQ"
+		nodename="General Administration Of Quality Supervision,Inspection and Quarantine (AQSIQ)">
+		<node showname="DOQM" nodename="Department of Quality Management"
+			url="http://www.microsoft.com">
+		</node>
+		<node showname="DOSOI"
+			nodename="Department of Supervision on Inspection">
+		</node>
+		<node showname="CNCA"
+			nodename="Certification and Accreditation Administration of China (CNCA)"
+			url="http://www.microsoft.com">
+			<node showname="CQC"
+				nodename="China Quality Certification Center (CQC) "
+				url="http://www.yahoo.com">
+			</node>
+		</node>
+		<node showname="SAC"
+			nodename="Standardization Administration of China (SAC)">
+			<node showname="NTCAS"
+				nodename="National Technical Committee for Automotive Standardization (NTCAS)"
+				url="http://www.yahoo.com">
+			</node>
+			<node showname="TC-ITS"
+				nodename="China National Technical Committee of Intelligent Transport Systems Standardization（TC-ITS"
+				url="http://www.yahoo.com">
+			</node>
+		</node>
+	</node>
+	<node showname="MEP"
+		nodename="Ministry of Environmental Protection (MEP)"
+		url="http://www.sohoo.com">
+		<node showname="DOS,TAS"
+			nodename="Department of Science, Technology and Standards "
+			url="http://www.yahoo.com">
+			<node showname="MVECC"
+				nodename="MEP Vehicle Emission Control Center"
+				url="http://www.yahoo.com">
+			</node>
+			<node showname="CRAES"
+				nodename="MEP Environmental Standards Institute (CRAES)"
+				url="http://www.yahoo.com">
+			</node>
+		</node>
+		<node showname="DOPC" nodename="Department of Pollution Control "
+			url="http://www.yahoo.com">
+		</node>
+	</node>
+	<node showname="MOST"
+		nodename="Ministry of Science and Technology (MOST)">
+		<node showname="DND"
+			nodename="Department of High &amp; New Tech,Development and Industrialization"
+			url="http://www.yahoo.com">
+			<node showname="Local Governments" nodename="Local Governments"
+				url="http://www.yahoo.com">
+				<node showname="Beijing EPB"
+					nodename="Beijing Environmental Protection Bureau (Beijing EPB)"
+					url="http://www.yahoo.com">
+				</node>
+				<node showname="Shanghai EPB"
+					nodename="Shanghai Environmental Protection Bureau (Shanghai EPB)"
+					url="http://www.yahoo.com">
+				</node>
+				<node showname="Guangzhou EPB"
+					nodename="Guangzhou Environmental Protection Bureau (Guangzhou EPB)"
+					url="http://www.yahoo.com">
+				</node>
+				<node showname="Shenzhen EPB"
+					nodename="Shenzhen Environmental Protection Bureau (Shenzhen EPB)"
+					url="http://www.yahoo.com">
+				</node>
+			</node>
+		</node>
+	</node>
+	<node showname="MOFCOM" nodename="Ministry of Commerce (MOFCOM)">
+		<node showname="DOFMSD"
+			nodename="Department of Market System Development"
+			url="http://www.yahoo.com">
+			<node showname="Universities" nodename="Universities"
+				url="http://www.yahoo.com">
+				<node showname="Tsinghua U" nodename="Tsinghua University"
+					url="http://www.yahoo.com">
+				</node>
+				<node showname="Tongji U" nodename="Tongji University"
+					url="http://www.yahoo.com">
+				</node>
+				<node showname="Jilin U" nodename="Jilin University"
+					url="http://www.yahoo.com">
+				</node>
+				<node showname="DUOT"
+					nodename="Dalian University of Technology"
+					url="http://www.yahoo.com">
+				</node>
+			</node>
+		</node>
+	</node>
+</node>

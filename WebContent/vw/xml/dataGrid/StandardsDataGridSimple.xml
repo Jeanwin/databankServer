@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSet>
+	<colSet>
+		<colObj columnName="@standardNo" headerText="No."
+			width="60" />
+		<colObj columnName="@titleEn" headerText="Title_EN" width="80" />
+		<colObj columnName="@titleCh" headerText="Title_CH" width="80" />
+		<colObj columnName="@summary" renderer="downLoadImage" headerText="sum." width="55" />
+		<colObj columnName="@executeDate" headerText="exe-Date"
+			width="80" />
+		<colObj headerText="Download">
+			<colObj columnName="@downloadEN" headerText="EN" width="50" />
+			<colObj columnName="@downloadCH" headerText="CH" width="50" />
+			<colObj columnName="@downloadECE-R" headerText="ECE-R"
+				width="60" />
+			<colObj columnName="@downloadEEC" headerText="EEC"
+				width="55" />
+			<colObj columnName="@downloadFMVSS" headerText="FMVSS"
+				width="60" />
+		</colObj>
+		
+	</colSet>
+</dataSet>

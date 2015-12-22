@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/was_catonline/!svn/ver/1310/sourcecode/trunk/databankServer/src/test/java/org/utmost/util
+END
+ClassUtilTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/was_catonline/!svn/ver/1068/sourcecode/trunk/databankServer/src/test/java/org/utmost/util/ClassUtilTest.java
+END
+TestStringUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/was_catonline/!svn/ver/1068/sourcecode/trunk/databankServer/src/test/java/org/utmost/util/TestStringUtil.java
+END
+ParamContextTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/was_catonline/!svn/ver/1081/sourcecode/trunk/databankServer/src/test/java/org/utmost/util/ParamContextTest.java
+END
+CodeUtilTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/was_catonline/!svn/ver/1068/sourcecode/trunk/databankServer/src/test/java/org/utmost/util/CodeUtilTest.java
+END
+InputStreamUtilTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/was_catonline/!svn/ver/1072/sourcecode/trunk/databankServer/src/test/java/org/utmost/util/InputStreamUtilTest.java
+END
+PathUtilTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/was_catonline/!svn/ver/1310/sourcecode/trunk/databankServer/src/test/java/org/utmost/util/PathUtilTest.java
+END
+CategoryUtilTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/was_catonline/!svn/ver/1081/sourcecode/trunk/databankServer/src/test/java/org/utmost/util/CategoryUtilTest.java
+END
+TestDateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/was_catonline/!svn/ver/1068/sourcecode/trunk/databankServer/src/test/java/org/utmost/util/TestDateUtil.java
+END

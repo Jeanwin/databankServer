@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/was_catonline/!svn/ver/397/sourcecode/trunk/databankServer/db/alter
+END
+alter_db.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/was_catonline/!svn/ver/389/sourcecode/trunk/databankServer/db/alter/alter_db.sh
+END
+db_alter.sql
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/was_catonline/!svn/ver/389/sourcecode/trunk/databankServer/db/alter/db_alter.sql
+END

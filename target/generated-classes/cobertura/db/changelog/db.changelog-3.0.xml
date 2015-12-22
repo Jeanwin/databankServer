@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.3.xsd http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <changeSet author="Administrator (generated)" id="1435047558650-1">
+        <createTable tableName="B_CLASS_ATTRIBUTE_APPENDIX">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="CLASS_ATTRIBUTE_PAGE_UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="LINK_TITLE" type="VARCHAR2(200 CHAR)"/>
+            <column name="LINK_APPENDIX_FILENAME" type="VARCHAR2(200 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-2">
+        <createTable tableName="B_CLASS_ATTRIBUTE_PAGE">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FUNC_UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="TITLE" type="VARCHAR2(200 CHAR)"/>
+            <column name="PICTURE_PATHNAME" type="VARCHAR2(500 CHAR)"/>
+            <column name="CONTENT" type="VARCHAR2(2000 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-3">
+        <createTable tableName="B_CLASS_FIELD">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FUNC_UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="FIELD_NAME" type="VARCHAR2(200 CHAR)"/>
+            <column name="SHOW_NAME_CH" type="VARCHAR2(200 CHAR)"/>
+            <column name="SHOW_NAME_EN" type="VARCHAR2(200 CHAR)"/>
+            <column name="ORDER_NO" type="NUMBER(20, 0)"/>
+            <column name="SHOW_MODE" type="NUMBER(20, 0)"/>
+            <column name="IS_PROTECTED" type="VARCHAR2(12 CHAR)"/>
+            <column name="FIELD_TYPE" type="VARCHAR2(50 CHAR)"/>
+            <column name="FIELD_VALUE" type="VARCHAR2(1000 CHAR)"/>
+            <column name="IS_CONFIG" type="VARCHAR2(12 CHAR)"/>
+            <column name="TOOLTIP" type="VARCHAR2(1000 CHAR)"/>
+            <column name="REGEX" type="VARCHAR2(100 CHAR)"/>
+            <column name="SHOW_WIDTH" type="NUMBER(12, 0)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-4">
+        <createTable tableName="B_COMMONDATA">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="RECORDID" type="NUMBER(20, 0)"/>
+            <column name="FUNC_UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="EFFECT_STATUS" type="VARCHAR2(10 CHAR)"/>
+            <column name="TITLE_ENGLISH" type="VARCHAR2(2000 CHAR)"/>
+            <column name="TITLE_EN" type="VARCHAR2(2000 CHAR)"/>
+            <column name="TITLE_CHINESE" type="VARCHAR2(2000 CHAR)"/>
+            <column name="TITLE_CH" type="VARCHAR2(2000 CHAR)"/>
+            <column name="ISSUANCE_DATE_STR" type="VARCHAR2(50 CHAR)"/>
+            <column name="ISSUANCE_DATE" type="NUMBER(20, 0)"/>
+            <column name="EXECUTE_DATE_STR" type="VARCHAR2(50 CHAR)"/>
+            <column name="EXECUTE_DATE" type="NUMBER(20, 0)"/>
+            <column name="PRE_EXECUTE_DATE_STR" type="VARCHAR2(50 CHAR)"/>
+            <column name="PRE_EXECUTE_DATE" type="NUMBER(20, 0)"/>
+            <column name="REMARK_" type="VARCHAR2(1000 CHAR)"/>
+            <column name="STANDARD_ATTRIBUTE1" type="VARCHAR2(100 CHAR)"/>
+            <column name="STANDARD_ATTRIBUTE2" type="VARCHAR2(100 CHAR)"/>
+            <column name="STANDARD_ATTRIBUTE3" type="VARCHAR2(100 CHAR)"/>
+            <column name="NO_" type="VARCHAR2(128 CHAR)"/>
+            <column name="VERSION_" type="VARCHAR2(10 CHAR)"/>
+            <column name="ADOPT_NATIONAL_STANDARD_NO" type="VARCHAR2(100 CHAR)"/>
+            <column name="APPLICATION_DEGREE" type="VARCHAR2(100 CHAR)"/>
+            <column name="GORVERNOR_CODE_UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="TECHNICAL_COMMITTEES_CODE_UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="DRAFTING_COMMITTEE" type="VARCHAR2(100 CHAR)"/>
+            <column name="PLAN_NO" type="VARCHAR2(100 CHAR)"/>
+            <column name="ONLINE_AUTO_EXECUTE_DATE_STR" type="VARCHAR2(50 CHAR)"/>
+            <column name="ONLINE_AUTO_EXECUTE_DATE" type="NUMBER(20, 0)"/>
+            <column name="DOWNLOAD_GB_EN_TITLE" type="VARCHAR2(200 CHAR)"/>
+            <column name="DOWNLOAD_GB_EN" type="VARCHAR2(500 CHAR)"/>
+            <column name="DOWNLOAD_GB_EN_SWF" type="VARCHAR2(500 CHAR)"/>
+            <column name="DOWNLOAD_GB_CH_TITLE" type="VARCHAR2(200 CHAR)"/>
+            <column name="DOWNLOAD_GB_CH" type="VARCHAR2(500 CHAR)"/>
+            <column name="DOWNLOAD_GB_CH_SWF" type="VARCHAR2(500 CHAR)"/>
+            <column name="DOWNLOAD_ECE_R_TITLE" type="VARCHAR2(200 CHAR)"/>
+            <column name="DOWNLOAD_ECE_R" type="VARCHAR2(500 CHAR)"/>
+            <column name="DOWNLOAD_ECE_R_SWF" type="VARCHAR2(500 CHAR)"/>
+            <column name="DOWNLOAD_EEC_TITLE" type="VARCHAR2(200 CHAR)"/>
+            <column name="DOWNLOAD_EEC" type="VARCHAR2(500 CHAR)"/>
+            <column name="DOWNLOAD_EEC_SWF" type="VARCHAR2(500 CHAR)"/>
+            <column name="DOWNLOAD_OTHERS_TITLE" type="VARCHAR2(200 CHAR)"/>
+            <column name="DOWNLOAD_OTHERS" type="VARCHAR2(500 CHAR)"/>
+            <column name="DOWNLOAD_OTHERS_SWF" type="VARCHAR2(500 CHAR)"/>
+            <column name="DOC_TITLE" type="VARCHAR2(200 CHAR)"/>
+            <column name="DOC_" type="VARCHAR2(3000 CHAR)"/>
+            <column name="SUMMARY" type="VARCHAR2(500 CHAR)"/>
+            <column name="SUMMARY_SWF" type="VARCHAR2(500 CHAR)"/>
+            <column name="APPLICABILITY" type="VARCHAR2(200 CHAR)"/>
+            <column name="REPLACED_STANDARD" type="VARCHAR2(500 CHAR)"/>
+            <column name="ISPARTS" type="VARCHAR2(10 CHAR)"/>
+            <column name="ISMANDATORY" type="VARCHAR2(10 CHAR)"/>
+            <column name="ISCCC" type="VARCHAR2(10 CHAR)"/>
+            <column name="ISBULLETIN" type="VARCHAR2(10 CHAR)"/>
+            <column name="DOCUMENT_NO" type="VARCHAR2(500 CHAR)"/>
+            <column name="SORT_" type="VARCHAR2(100 CHAR)"/>
+            <column name="PROMULGATION_DEPARTMENT" type="VARCHAR2(100 CHAR)"/>
+            <column name="SOURCE_" type="VARCHAR2(100 CHAR)"/>
+            <column name="AUTHOR" type="VARCHAR2(100 CHAR)"/>
+            <column name="PAPER" type="VARCHAR2(100 CHAR)"/>
+            <column name="KEY_WORDS" type="VARCHAR2(1000 CHAR)"/>
+            <column name="IMPORTANCE" type="VARCHAR2(36 CHAR)"/>
+            <column name="LAST_MODIFY_AUTHOR" type="VARCHAR2(50 CHAR)"/>
+            <column name="LAST_MODIFY_DATE_STRING" type="VARCHAR2(50 CHAR)"/>
+            <column name="LAST_MODIFY_DATE" type="NUMBER(20, 0)"/>
+            <column name="STATE" type="VARCHAR2(36 CHAR)"/>
+            <column name="DOWNLOAD_FMVSS_TITLE" type="VARCHAR2(200 CHAR)"/>
+            <column name="DOWNLOAD_FMVSS" type="VARCHAR2(500 CHAR)"/>
+            <column name="DOWNLOAD_FMVSS_SWF" type="VARCHAR2(500 CHAR)"/>
+            <column name="REVISION_EST" type="VARCHAR2(20 CHAR)"/>
+            <column name="HOMO_RISK" type="VARCHAR2(10 CHAR)"/>
+            <column name="REFERENCE" type="VARCHAR2(100 CHAR)"/>
+            <column name="IS_NATIONAL_EMI" type="NUMBER(10, 0)"/>
+            <column name="IS_LOCAL_EMI" type="NUMBER(10, 0)"/>
+            <column name="STATUS" type="VARCHAR2(20 CHAR)"/>
+            <column name="CONTACT_PERSON" type="VARCHAR2(20 CHAR)"/>
+            <column name="POWER_TYPE" type="VARCHAR2(200 CHAR)"/>
+            <column name="IS_IMPLEMENTED" type="NUMBER(10, 0)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-5">
+        <createTable tableName="B_COMMONDATA_FIELD">
+            <column name="UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="FIELD_NAME" type="VARCHAR2(200 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-6">
+        <createTable tableName="B_GANTT">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="RECORDID" type="NUMBER(20, 0)"/>
+            <column name="COMMONDATA_UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="START_DATE" type="NUMBER(20, 0)"/>
+            <column name="END_DATE" type="NUMBER(20, 0)"/>
+            <column name="PHASE" type="NUMBER(20, 0)"/>
+            <column name="INFORMATION" type="VARCHAR2(3000 CHAR)"/>
+            <column name="REMARK" type="VARCHAR2(3000 CHAR)"/>
+            <column name="STATE" type="VARCHAR2(36 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-7">
+        <createTable tableName="B_GANTT_APPENDIX">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="GANTT_UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="COMMONDATA_UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="CURRENT_DATE" type="NUMBER(20, 0)"/>
+            <column name="FILE_NAME" type="VARCHAR2(500 CHAR)"/>
+            <column name="DESCRIPTION" type="VARCHAR2(1000 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-8">
+        <createTable tableName="B_GOVENOR_CODE">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="GOVENOR_CODE" type="VARCHAR2(200 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-9">
+        <createTable tableName="B_TECHNICAL_COMMITTEES_CODE">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="TECHNICAL_COMMITTEES_CODE" type="VARCHAR2(200 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-10">
+        <createTable tableName="B_UPLOAD_FILES">
+            <column name="UUID" type="VARCHAR2(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="USER_ID" type="VARCHAR2(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FILE_NAME" type="VARCHAR2(1000)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FILE_ORIGINAL_NAME" type="VARCHAR2(1000)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FILE_UPLOAD_TIME" type="VARCHAR2(100)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-11">
+        <createTable tableName="DEPARTMENT">
+            <column name="ID" type="NUMBER(10, 0)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="NAME" type="VARCHAR2(50 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueNumeric="1" name="ACTIVE" type="NUMBER(5, 0)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-12">
+        <createTable tableName="HP_TB_FORUM_CATEGORY">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="PID" type="VARCHAR2(36 CHAR)"/>
+            <column name="EN_NAME" type="VARCHAR2(256 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="EN_DESC" type="VARCHAR2(256 CHAR)"/>
+            <column name="CN_NAME" type="VARCHAR2(256 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="CN_DESC" type="VARCHAR2(256 CHAR)"/>
+            <column name="ORDER_NUM" type="NUMBER(10, 0)"/>
+            <column name="CREATE_DATE" type="TIMESTAMP"/>
+            <column name="LAST_MODIFY_DATE" type="TIMESTAMP"/>
+            <column name="LAST_MODIFIOR_UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="IS_DELETE" type="CHAR(1)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-13">
+        <createTable tableName="HP_TB_FORUM_REPLY">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="PID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="CONTENT" type="VARCHAR2(256 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="AUTHOR_UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="CREATE_DATE" type="TIMESTAMP">
+                <constraints nullable="false"/>
+            </column>
+            <column name="LAST_MODIFIOR_UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="LAST_MODIFY_DATE" type="TIMESTAMP"/>
+            <column name="IS_DELETE" type="CHAR(1)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-14">
+        <createTable tableName="HP_TB_FORUM_TOPIC">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="PID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="TITLE" type="VARCHAR2(256 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="CONTENT" type="VARCHAR2(256 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="AUTHOR_UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="CREATE_DATE" type="TIMESTAMP">
+                <constraints nullable="false"/>
+            </column>
+            <column name="LAST_MODIFIOR_UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="LAST_MODIFY_DATE" type="TIMESTAMP"/>
+            <column name="IS_DELETE" type="CHAR(1)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-15">
+        <createTable tableName="U_OPERATE">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="OPERATE_CODE" type="VARCHAR2(200 CHAR)"/>
+            <column name="OPERATE_NAME" type="VARCHAR2(200 CHAR)"/>
+            <column name="STATE" type="VARCHAR2(36 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-16">
+        <createTable tableName="U_PORTAL_FUNC">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="PID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="CLASSUUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FUNCCODE" type="VARCHAR2(128 CHAR)"/>
+            <column name="FUNCNAME" type="VARCHAR2(256 CHAR)"/>
+            <column name="FUNCDESC" type="VARCHAR2(256 CHAR)"/>
+            <column name="FUNCPATH" type="VARCHAR2(1024 CHAR)"/>
+            <column name="FUNCICON" type="VARCHAR2(1024 CHAR)"/>
+            <column name="NODETYPE" type="VARCHAR2(36 CHAR)"/>
+            <column name="FUNCTYPE" type="VARCHAR2(36 CHAR)"/>
+            <column name="FUNCSCOPE" type="VARCHAR2(36 CHAR)"/>
+            <column name="FUNCINDEX" type="NUMBER(20, 0)"/>
+            <column name="STATE" type="VARCHAR2(36 CHAR)"/>
+            <column name="ISDELETE" type="VARCHAR2(36 CHAR)"/>
+            <column name="FUNC_CN_NAME" type="VARCHAR2(256 CHAR)"/>
+            <column name="FUNC_CN_DESC" type="VARCHAR2(256 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-17">
+        <createTable tableName="U_PORTAL_ORG">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="PID" type="VARCHAR2(36 CHAR)"/>
+            <column name="ORGCODE" type="VARCHAR2(128 CHAR)"/>
+            <column name="ORGNAME" type="VARCHAR2(256 CHAR)"/>
+            <column name="ORGDESC" type="VARCHAR2(256 CHAR)"/>
+            <column name="STATE" type="VARCHAR2(36 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-18">
+        <createTable tableName="U_PORTAL_REFORGUSER">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ORGUUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="ORGCODE" type="VARCHAR2(128 CHAR)"/>
+            <column name="ORGNAME" type="VARCHAR2(256 CHAR)"/>
+            <column name="USERUUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="USERCODE" type="VARCHAR2(128 CHAR)"/>
+            <column name="USERNAME" type="VARCHAR2(128 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-19">
+        <createTable tableName="U_PORTAL_REFROLEFUNC">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ROLEUUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ROLECODE" type="VARCHAR2(128 CHAR)"/>
+            <column name="ROLENAME" type="VARCHAR2(128 CHAR)"/>
+            <column name="FUNCUUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="FUNCCODE" type="VARCHAR2(128 CHAR)"/>
+            <column name="FUNCNAME" type="VARCHAR2(256 CHAR)"/>
+            <column name="OPERATEUUID" type="VARCHAR2(36 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-20">
+        <createTable tableName="U_PORTAL_REFROLEUSER">
+            <column name="UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="ROLEUUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="ROLECODE" type="VARCHAR2(128 CHAR)"/>
+            <column name="ROLENAME" type="VARCHAR2(128 CHAR)"/>
+            <column name="USERUUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="USERCODE" type="VARCHAR2(128 CHAR)"/>
+            <column name="USERNAME" type="VARCHAR2(128 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-21">
+        <createTable tableName="U_PORTAL_ROLE">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="PID" type="VARCHAR2(36 CHAR)"/>
+            <column name="ROLECODE" type="VARCHAR2(128 CHAR)"/>
+            <column name="ROLENAME" type="VARCHAR2(128 CHAR)"/>
+            <column name="ROLEDESC" type="VARCHAR2(256 CHAR)"/>
+            <column name="STATE" type="VARCHAR2(36 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-22">
+        <createTable tableName="U_PORTAL_USER">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="USERCODE" type="VARCHAR2(128 CHAR)"/>
+            <column name="USERNAME" type="VARCHAR2(128 CHAR)"/>
+            <column name="LOGINNAME" type="VARCHAR2(128 CHAR)"/>
+            <column name="PASSWORD" type="VARCHAR2(128 CHAR)"/>
+            <column name="EMAIL" type="VARCHAR2(200 CHAR)"/>
+            <column name="TELEPHONE" type="VARCHAR2(100 CHAR)"/>
+            <column name="STATE" type="VARCHAR2(36 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-23">
+        <createTable tableName="U_USER_DOWNLOAD_LIST">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FUNC_UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="USER_UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="DOCUMENT_TYPE" type="VARCHAR2(50 CHAR)"/>
+            <column name="DOCUMENT_TITLE" type="VARCHAR2(500 CHAR)"/>
+            <column name="IS_HISTORY" type="NUMBER(1, 0)"/>
+            <column name="ADD_DATE_STR" type="VARCHAR2(10 CHAR)"/>
+            <column name="DOWNLOAD_DATE_STR" type="VARCHAR2(10 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-24">
+        <createTable tableName="U_USER_DOWNLOAD_LOG">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="USER_LOG_UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="DOWNLOADFILEPATH" type="VARCHAR2(500 CHAR)"/>
+            <column name="LAST_MODIFY_AUTHOR" type="VARCHAR2(50 CHAR)"/>
+            <column name="LAST_MODIFY_DATE_STR" type="VARCHAR2(50 CHAR)"/>
+            <column name="DOWNLOADTIMESTR" type="VARCHAR2(50 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-25">
+        <createTable tableName="U_USER_LOG">
+            <column name="UUID" type="VARCHAR2(36 CHAR)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="LOGID" type="NUMBER(20, 0)"/>
+            <column name="USER_UUID" type="VARCHAR2(36 CHAR)"/>
+            <column name="SESSIONID" type="VARCHAR2(128 CHAR)"/>
+            <column name="LOGINCOUNT" type="NUMBER(20, 0)"/>
+            <column name="LOGINTIMESTRING" type="VARCHAR2(50 CHAR)"/>
+            <column name="LOGINTIME" type="NUMBER(20, 0)"/>
+            <column name="LOGOUTTIMESTRING" type="VARCHAR2(50 CHAR)"/>
+            <column name="LOGOUTTIME" type="NUMBER(20, 0)"/>
+            <column name="LOGINIP" type="VARCHAR2(100 CHAR)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-26">
+        <addPrimaryKey columnNames="UUID" constraintName="HP_PK_FORUM_CATEGORY" tableName="HP_TB_FORUM_CATEGORY"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-27">
+        <addPrimaryKey columnNames="UUID" constraintName="HP_PK_FORUM_REPLY" tableName="HP_TB_FORUM_REPLY"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-28">
+        <addPrimaryKey columnNames="UUID" constraintName="HP_PK_FORUM_TOPIC" tableName="HP_TB_FORUM_TOPIC"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-29">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_B_CLASS_ATTRIBUTE_APPENDIX" tableName="B_CLASS_ATTRIBUTE_APPENDIX"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-30">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_B_CLASS_ATTRIBUTE_PAGE" tableName="B_CLASS_ATTRIBUTE_PAGE"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-31">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_B_CLASS_FIELD" tableName="B_CLASS_FIELD"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-32">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_B_COMMONDATA" tableName="B_COMMONDATA"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-33">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_B_GANTT" tableName="B_GANTT"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-34">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_B_GANTT_APPENDIX" tableName="B_GANTT_APPENDIX"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-35">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_B_GOVENOR_CODE" tableName="B_GOVENOR_CODE"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-36">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_B_TECHNICAL_COMMITTEES_CODE" tableName="B_TECHNICAL_COMMITTEES_CODE"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-37">
+        <addPrimaryKey columnNames="ID" constraintName="PK_DEPARTMENT" tableName="DEPARTMENT"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-38">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_U_OPERATE" tableName="U_OPERATE"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-39">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_U_PORTAL_FUNC" tableName="U_PORTAL_FUNC"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-40">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_U_PORTAL_ORG" tableName="U_PORTAL_ORG"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-41">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_U_PORTAL_REFORGUSER" tableName="U_PORTAL_REFORGUSER"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-42">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_U_PORTAL_REFROLEFUNC" tableName="U_PORTAL_REFROLEFUNC"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-43">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_U_PORTAL_ROLE" tableName="U_PORTAL_ROLE"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-44">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_U_PORTAL_USER" tableName="U_PORTAL_USER"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-45">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_U_USER_DOWNLOAD_LIST" tableName="U_USER_DOWNLOAD_LIST"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-46">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_U_USER_DOWNLOAD_LOG" tableName="U_USER_DOWNLOAD_LOG"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-47">
+        <addPrimaryKey columnNames="UUID" constraintName="PK_U_USER_LOG" tableName="U_USER_LOG"/>
+    </changeSet>
+    <changeSet author="Administrator (generated)" id="1435047558650-48">
+        <addForeignKeyConstraint baseColumnNames="PID" baseTableName="HP_TB_FORUM_CATEGORY" constraintName="HP_FK_FORUM_CATEGORY_PID" deferrable="false" initiallyDeferred="false" onDelete="RESTRICT" onUpdate="RESTRICT" referencedColumnNames="UUID" referencedTableName="HP_TB_FORUM_CATEGORY"/>
+    </changeSet>
+    <changeSet id="1435047558650-49" author="Administrator (generated)">
+	  <sqlFile path="db/changelog/masterData.sql"/>
+    </changeSet>
+	<changeSet author="Administrator (generated)" id="1435047558650-50">
+        <addPrimaryKey columnNames="UUID" constraintName="B_UPLOAD_FILES_PK" tableName="B_UPLOAD_FILES"/>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+				http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+
+
+	<bean id="loginController"
+		class="org.utmost.spring.mvc.controller.LoginController">
+		<property name="methodNameResolver" ref="methodNameResolver" />
+	</bean>
+	<bean id="uploadController"
+		class="org.utmost.spring.mvc.controller.UploadController">
+		<property name="methodNameResolver" ref="methodNameResolver" />
+	</bean>
+	<!-- 
+		<bean id="reportController" class="org.utmost.spring.mvc.controller.ReportController">
+		<property name="methodNameResolver" ref="methodNameResolver" />
+		</bean>
+	-->
+	<bean id="downloadController"
+		class="org.utmost.spring.mvc.controller.DownloadController">
+		<property name="methodNameResolver" ref="methodNameResolver" />
+	</bean>
+	
+	<bean id="batchDownloadController"
+		class="org.utmost.spring.mvc.controller.DownloadController">
+		<property name="methodNameResolver" ref="methodNameResolver" />
+	</bean>
+	
+	<bean id="uploadUrlMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<value>/upload.form=uploadController</value>
+		</property>
+	</bean>
+	<bean id="loginUrlMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<value>/login.form=loginController</value>
+		</property>
+	</bean>
+	<!-- 
+		<bean id="reportUrlMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+		<value>
+		/report.form=reportController
+		</value>
+		</property>
+		</bean>
+	-->
+	<bean id="downloadUrlMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<value>/download.form=downloadController</value>
+		</property>
+	</bean>
+	<bean id="batchDownloadUrlMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<value>/batchload.form=batchDownloadController</value>
+		</property>
+	</bean>
+	<!-- for VW
+		<import resource="vwDispatcherServlet-servlet.xml" />
+	-->
+</beans>

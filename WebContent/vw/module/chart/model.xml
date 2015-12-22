@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schedule>
+	<resources>
+		<resource id="R1" name="Designer" quantity="1" />
+		<resource id="R2" name="Project engineer" quantity="1" />
+		<resource id="R3" name="Discipline engineer" quantity="1" />
+		<resource id="R4" name="Cost engineer" quantity="1" />
+		<resource id="R5" name="Drafter" quantity="1" />
+		<resource id="R6" name="Scheduler" quantity="1" />
+		<resource id="R7" name="Project sponsor" quantity="1" />
+	</resources>
+	<activities>
+		<activity id="A1" name="法规" start="09/14/2009 8:0:0"
+			end="12/14/2009 8:0:0">
+			<!-- 预阶段 -->
+			<activity id="A2" name="准备阶段" start="09/19/2009 8:0:0"
+				end="09/27/2009 10:0:0" />
+			<!-- 计划 -->
+			<activity id="A3" name="计划" start="09/27/2009 8:0:0"
+				end="10/27/2009 10:0:0" />
+			<!-- 起草 -->
+			<activity id="A4" name="起草" start="10/19/2009 8:0:0"
+				end="12/14/2009 10:0:0">
+				<!-- 征求意见 -->
+				<activity id="A5" name="征求意见阶段"
+					start="10/19/2009 8:0:0" end="11/01/2009 10:0:0" />
+				<!-- 报批阶段 -->
+				<activity id="A6" name="报批阶段" start="11/01/2009 8:0:0"
+					end="11/10/2009 10:0:0" />
+				<!-- 批准阶段 -->
+				<activity id="A7" name="批准阶段" start="11/05/2009 8:0:0"
+					end="11/27/2009 10:0:0" />
+				<!-- 复审阶段 -->
+				<activity id="A8" name="复审阶段" start="11/27/2009 8:0:0"
+					end="12/09/2009 10:0:0" />
+				<!-- 发布阶段 -->
+				<activity id="A9" name="发布阶段" start="12/10/2009 8:0:0"
+					end="12/14/2009 10:0:0" />
+			</activity>
+		</activity>
+
+	</activities>
+	<constraints>
+		<constraint from="A1" to="A2" type="End-Start" />
+		<constraint from="A2" to="A3" type="End-Start" />
+		<constraint from="A3" to="A4" type="End-Start" />
+		<constraint from="A4" to="A5" type="End-Start" />
+		<constraint from="A5" to="A6" type="End-Start" />
+		<constraint from="A6" to="A7" type="End-Start" />
+		<constraint from="A7" to="A8" type="End-Start" />
+		<constraint from="A8" to="A9" type="End-Start" />
+	</constraints>
+
+	<reservations>
+		<reservation resource="R7" activity="A2" />
+		<reservation resource="R3" activity="A9" />
+	</reservations>
+</schedule>

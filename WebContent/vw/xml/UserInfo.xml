@@ -1,0 +1,17 @@
+<node >
+	<node usercode="1" username="admin" loginname="admin"
+		useruuid="aa01" checked="1" usergroup="Administrator">
+	</node>
+	<node usercode="2" username="user" loginname="user" useruuid="aa02"
+		checked="0" usergroup="User">
+	</node>
+	<node usercode="2" username="user2" useruuid="aa03"
+		loginname="user2" checked="1" usergroup="User">
+	</node>
+	<node usercode="2" username="user3" useruuid="aa04"
+		loginname="user3" checked="0" usergroup="User">
+	</node>
+	<node usercode="3" username="look" useruuid="aa05" loginname="look"
+		checked="1" usergroup="Read Only">
+	</node>
+</node>

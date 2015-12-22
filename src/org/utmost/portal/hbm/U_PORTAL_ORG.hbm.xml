@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class entity-name="U_PORTAL_ORG" table="U_PORTAL_ORG">
+	<cache usage="read-write"/>
+		<id name="uuid" column="UUID" length="36" type="java.lang.String">
+			<generator class="uuid" />
+		</id>
+		<property name="pid" type="java.lang.String">
+			<column length="36" name="PID">
+				<!-- <comment>父节点UUID</comment> -->
+			</column>
+		</property>
+		<property name="orgcode" type="java.lang.String">
+			<column length="128" name="ORGCODE">
+				<!--<comment>机构编码</comment> -->
+			</column>
+		</property>
+		<property name="orgname" type="java.lang.String">
+			<column length="256" name="ORGNAME">
+				<!--<comment>机构名称</comment> -->
+			</column>
+		</property>
+		<property name="orgdesc" type="java.lang.String">
+			<column length="256" name="ORGDESC">
+				<!--<comment>机构描述</comment>-->
+			</column>
+		</property>
+		<property name="state" type="java.lang.String">
+			<column length="36" name="STATE">
+				<!--<comment>状态</comment> -->
+			</column>
+		</property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/was_catonline/!svn/ver/992/sourcecode/trunk/databankServer/src/org/apache/tools/zip
+END
+UnixStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/apache/tools/zip/UnixStat.java
+END
+ZipOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/was_catonline/!svn/ver/836/sourcecode/trunk/databankServer/src/org/apache/tools/zip/ZipOutputStream.java
+END
+ZipFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/apache/tools/zip/ZipFile.java
+END
+ZipLong.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/was_catonline/!svn/ver/839/sourcecode/trunk/databankServer/src/org/apache/tools/zip/ZipLong.java
+END
+ZipShort.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/was_catonline/!svn/ver/838/sourcecode/trunk/databankServer/src/org/apache/tools/zip/ZipShort.java
+END
+ZipUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/was_catonline/!svn/ver/716/sourcecode/trunk/databankServer/src/org/apache/tools/zip/ZipUtils.java
+END
+AsiExtraField.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/was_catonline/!svn/ver/837/sourcecode/trunk/databankServer/src/org/apache/tools/zip/AsiExtraField.java
+END
+UnrecognizedExtraField.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/apache/tools/zip/UnrecognizedExtraField.java
+END
+ZipEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/apache/tools/zip/ZipEntry.java
+END
+ExtraFieldUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/apache/tools/zip/ExtraFieldUtils.java
+END
+ZipExtraField.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/apache/tools/zip/ZipExtraField.java
+END
+ZipManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/was_catonline/!svn/ver/992/sourcecode/trunk/databankServer/src/org/apache/tools/zip/ZipManager.java
+END
+JarMarker.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/apache/tools/zip/JarMarker.java
+END

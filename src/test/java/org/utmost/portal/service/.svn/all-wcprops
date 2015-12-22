@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/was_catonline/!svn/ver/1214/sourcecode/trunk/databankServer/src/test/java/org/utmost/portal/service
+END
+AutoServicePowerMockTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/was_catonline/!svn/ver/1214/sourcecode/trunk/databankServer/src/test/java/org/utmost/portal/service/AutoServicePowerMockTest.java
+END
+ForumServicePowerMockTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/was_catonline/!svn/ver/1101/sourcecode/trunk/databankServer/src/test/java/org/utmost/portal/service/ForumServicePowerMockTest.java
+END
+LoopedStreamsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/was_catonline/!svn/ver/1079/sourcecode/trunk/databankServer/src/test/java/org/utmost/portal/service/LoopedStreamsTest.java
+END
+ConsoleSimulatorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/was_catonline/!svn/ver/1090/sourcecode/trunk/databankServer/src/test/java/org/utmost/portal/service/ConsoleSimulatorTest.java
+END
+ConsoleServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/was_catonline/!svn/ver/1079/sourcecode/trunk/databankServer/src/test/java/org/utmost/portal/service/ConsoleServiceTest.java
+END
+ForceNoCacheFilterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/was_catonline/!svn/ver/1090/sourcecode/trunk/databankServer/src/test/java/org/utmost/portal/service/ForceNoCacheFilterTest.java
+END
+TreeServicePowerMockTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/was_catonline/!svn/ver/1102/sourcecode/trunk/databankServer/src/test/java/org/utmost/portal/service/TreeServicePowerMockTest.java
+END
+LoongSessionListenerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/was_catonline/!svn/ver/1079/sourcecode/trunk/databankServer/src/test/java/org/utmost/portal/service/LoongSessionListenerTest.java
+END
+RuleServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/was_catonline/!svn/ver/1079/sourcecode/trunk/databankServer/src/test/java/org/utmost/portal/service/RuleServiceTest.java
+END
+RuleEngineTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/was_catonline/!svn/ver/1079/sourcecode/trunk/databankServer/src/test/java/org/utmost/portal/service/RuleEngineTest.java
+END

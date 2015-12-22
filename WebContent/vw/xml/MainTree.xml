@@ -1,0 +1,5 @@
+<node nodename="MainTree">
+		<node nodename="浏览系统" mode="dynamic" nodecode="VW" icon="img/resources/elixir60.png"   />
+		<node nodename="管理信息" mode="static"  nodecode="Portal" icon="img/system/tpl_portal.png"   />
+		<node nodename="用户权限" mode="userrole"  nodecode="RR" icon="img/system/pic_userrole.png"   />
+</node>

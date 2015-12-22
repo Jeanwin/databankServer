@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<obj
+		standardNo="GB/T 11341.1-1998" 
+		standardTitleInEnglish="Photometric Characteristics of Rear Fog Lamp for Motor Vehicles and Their Trailers" 
+		titleEn="Photometric Characteristics of Rear Fog Lamp"
+		standardTitleInChinese="汽车及挂车后雾灯配光性能"
+		titleCh="后雾灯配光性能"
+		adoptedInternationalStandardNo="ECE-R 38 77/538/EEC FMVSS 106 IEC 34556 ISO"
+		applicationDegree="IDT"
+		governorAndCode="303 国家发展和改革委员会"
+		technicalCommitteesAndCode="469-114 全国汽车标准化技术委员会"
+		draftingCommittee="中国汽车技术研究中心、奇瑞汽车有限公司、北汽福田汽车有限公司等"
+		planNo="20062310-Q-303"
+		issuanceDate="1999-10-01"
+		preExecuteDate="1999-10-01"
+		executeDate="1999-10-01"
+		executeDate2="executeDate2"
+		downloadEN="EN"
+		downloadCH="ch"
+		downloadECE-R="-"
+		downloadEEC="-"
+		downloadFMVSS="-"
+		downloadOthers="-"
+		doc="-"
+		summary="summary"
+		applicability="M1|M2|N1|N2|O1"
+		replacedStandard="GB63/T11554.11996"
+		parts="true"
+		mandatory="true"
+		CCC="true"
+		bulletin="true"
+		remark="Remark"
+		
+		/>
+</data>

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/was_catonline/!svn/ver/312/sourcecode/trunk/databankServer/src/org/utmost/portal/hbm
+END
+U_PORTAL_ORG.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/utmost/portal/hbm/U_PORTAL_ORG.hbm.xml
+END
+HP_TB_FORUM_REPLY.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/utmost/portal/hbm/HP_TB_FORUM_REPLY.hbm.xml
+END
+U_PORTAL_REFROLEFUNC.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/utmost/portal/hbm/U_PORTAL_REFROLEFUNC.hbm.xml
+END
+U_PORTAL_FUNC.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/utmost/portal/hbm/U_PORTAL_FUNC.hbm.xml
+END
+HP_TB_FORUM_CATEGORY.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/utmost/portal/hbm/HP_TB_FORUM_CATEGORY.hbm.xml
+END
+HP_TB_FORUM_TOPIC.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/utmost/portal/hbm/HP_TB_FORUM_TOPIC.hbm.xml
+END
+U_PORTAL_REFROLEUSER.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/utmost/portal/hbm/U_PORTAL_REFROLEUSER.hbm.xml
+END
+U_OPERATE.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/utmost/portal/hbm/U_OPERATE.hbm.xml
+END
+U_PORTAL_USER.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/utmost/portal/hbm/U_PORTAL_USER.hbm.xml
+END
+U_USER_LOG.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/utmost/portal/hbm/U_USER_LOG.hbm.xml
+END
+U_USER_DOWNLOAD_LIST.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/was_catonline/!svn/ver/312/sourcecode/trunk/databankServer/src/org/utmost/portal/hbm/U_USER_DOWNLOAD_LIST.hbm.xml
+END
+U_PORTAL_ROLE.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/utmost/portal/hbm/U_PORTAL_ROLE.hbm.xml
+END
+U_PORTAL_REFORGUSER.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/utmost/portal/hbm/U_PORTAL_REFORGUSER.hbm.xml
+END
+U_USER_DOWNLOAD_LOG.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/utmost/portal/hbm/U_USER_DOWNLOAD_LOG.hbm.xml
+END

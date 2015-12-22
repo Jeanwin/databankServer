@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<obj
+		source="State council"
+		documentNo="GB 16897-200X"
+		sort=""
+		titleEn="Certification and accreditation rule of PRC"
+		titleCh="中华人民共和国认证认可条例"
+		executeDate="2003-11-1"
+		summary="summary"
+		downloadEN="EN"
+		downloadCH="CH"
+	/>
+	<obj
+		source="CNCA"
+		documentNo="GB14167-XXXX"
+		sort=""
+		titleEn="Compulsory product certification label management regulation"
+		titleCh="强制性产品认证标志管理办法"
+		executeDate="2002-05-1"
+		summary="summary"
+		downloadEN="EN"
+		downloadCH="CH"
+	/>
+</data>

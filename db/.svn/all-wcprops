@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/was_catonline/!svn/ver/1378/sourcecode/trunk/databankServer/db
+END
+db_conf.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/was_catonline/!svn/ver/186/sourcecode/trunk/databankServer/db/db_conf.sh
+END
+db_all.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/was_catonline/!svn/ver/774/sourcecode/trunk/databankServer/db/db_all.sh
+END
+db_currentVersion.sh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/was_catonline/!svn/ver/774/sourcecode/trunk/databankServer/db/db_currentVersion.sh
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/was_catonline/!svn/ver/775/sourcecode/trunk/databankServer/db/readme.txt
+END

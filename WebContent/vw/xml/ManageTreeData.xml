@@ -1,0 +1,431 @@
+<stage>
+	<node imghref="" label="What's Hot" category="What's Hot?"
+		type="hot" kind="floder" description="bigkind">
+		<node imghref="" description="" kind="floder"
+			label="Environment protection" type="hot">
+			<node imghref="" description="" kind="node"
+				label="Emission Control" type="hot" />
+			<node imghref="" description="" kind="node"
+				label="Recycling and recovery of end-of-life vehicles(ELV)"
+				type="hot" />
+			<node imghref="" description="" kind="node"
+				label="Volatile Organaic Compounds(VOC)from production" type="hot" />
+		</node>
+		<node imghref="" description="" kind="floder"
+			label="Energy-Saving" type="hot">
+			<node imghref="" description="" kind="node"
+				label="Fuel Consumption" type="hot" />
+			<node imghref="" description="" kind="node"
+				label="Fuel Consumption labeling" type="hot" />
+			<node imghref="" description="" kind="node"
+				label="Fehicle Consumption Tax &amp; Purchase Tax" type="hot" />
+		</node>
+		<node imghref="" description="" kind="floder" label="Fuels"
+			type="hot">
+			<node imghref="" description="" kind="node"
+				label="Fuel quality" type="hot" />
+		</node>
+		<node imghref="" description="" kind="floder"
+			label="New power-train technology" type="hot">
+			<node imghref="" description="" kind="node"
+				label="Financial Supports to the Energy-Saving and New-Energy Vehicles in Demo Cities"
+				type="hot" />
+		</node>
+		<node imghref="" description="" kind="floder" label="Safety"
+			type="hot">
+			<node imghref="" description="" kind="node"
+				label="Passive Safety" type="hot" />
+			<node imghref="" description="" kind="node"
+				label="NCAP in China" type="hot" />
+		</node>
+		<node imghref="" description="" kind="floder"
+			label="China Homologation" type="hot">
+			<node imghref="" description="" kind="node"
+				label="New CCC Implementation Rule" type="hot" />
+		</node>
+	</node>
+	<node imghref="" label="Standards" category="标准法规" type="biaozhun"
+		kind="floder" description="bigkind">
+		<node imghref="" description="" kind="floder"
+			label="Issued standards" type="yifabu">
+			<node imghref="" description="" kind="floder"
+				label="Energy Saving &amp; Environmental Protection "
+				type="yifabu">
+				<node imghref="" description="" kind="node"
+					label="Fuel Consumption " type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label=" Emission" type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label="End-of-Life Vehicle" type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label="Noise" type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label=" VOC Emission" type="yifabu" />
+			</node>
+			<node imghref="" description="" kind="floder" label="Safety"
+				type="yifabu">
+				<node imghref="" description="" kind="node"
+					label="Passive Safety" type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label="Active Safety" type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label="General Safety" type="yifabu" />
+			</node>
+			<node imghref="" description="" kind="floder" label="Fuel"
+				type="yifabu">
+				<node imghref="" description="" kind="node"
+					label="Gasoline/Diesel" type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label="Alternate Fuel" type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label="Synthetic Fuel" type="yifabu" />
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="New Powertrain Technology" type="yifabu">
+				<node imghref="" description="" kind="node"
+					label="Electric Vehicle" type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label="Hybrid-Electric Vehicle" type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label="Fuel-Cell Vehicle" type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label="CNG Vehicle" type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label="LPG Vehicle" type="yifabu" />
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="China Specific" type="yifabu">
+				<node imghref="" description="" kind="node"
+					label="Standards from Ministry of Public Security, etc"
+					type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label="Others" type="yifabu" />
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="Vehicle Electronics" type="yifabu">
+				<node imghref="" description="" kind="node"
+					label="EMI &amp; EMC" type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label="Information/Entertainment" type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label="On-board Electronics" type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label="Driver Assistant Systems" type="yifabu" />
+			</node>
+			<node imghref="" description="" kind="floder" label="ITS"
+				type="yifabu">
+				<node imghref="" description="" kind="node"
+					label="Traffic and Emergency Management" type="yifabu" />
+				<node imghref="" description="" kind="node"
+					label="Automatic Highway and Assistant Driving" type="yifabu" />
+			</node>
+		</node>
+		<node imghref="" description="" kind="floder"
+			label="Drafting standards" type="weifabu">
+			<node imghref="" description="" kind="floder"
+				label="Energy Saving &amp; Environmental Protection "
+				type="weifabu">
+				<node imghref="" description="" kind="node"
+					label="Fuel Consumption " type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label=" Emission" type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label="End-of-Life Vehicle" type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label="Noise" type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label=" VOC Emission" type="weifabu" />
+			</node>
+			<node imghref="" description="" kind="floder" label="Safety"
+				type="weifabu">
+				<node imghref="" description="" kind="node"
+					label="Passive Safety" type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label="Active Safety" type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label="General Safety" type="weifabu" />
+			</node>
+			<node imghref="" description="" kind="floder" label="Fuel"
+				type="weifabu">
+				<node imghref="" description="" kind="node"
+					label="Gasoline/Diesel" type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label="Alternate Fuel" type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label="Synthetic Fuel" type="weifabu" />
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="New Powertrain Technology" type="weifabu">
+				<node imghref="" description="" kind="node"
+					label="Electric Vehicle" type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label="Hybrid-Electric Vehicle" type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label="Fuel-Cell Vehicle" type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label="CNG Vehicle" type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label="LPG Vehicle" type="weifabu" />
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="China Specific" type="weifabu">
+				<node imghref="" description="" kind="node"
+					label="Standards from Ministry of Public Security, etc"
+					type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label="Others" type="weifabu" />
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="Vehicle Electronics" type="weifabu">
+				<node imghref="" description="" kind="node"
+					label="EMI &amp; EMC" type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label="Information/Entertainment" type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label="On-board Electronics" type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label="Driver Assistant Systems" type="weifabu" />
+			</node>
+			<node imghref="" description="" kind="floder" label="ITS"
+				type="weifabu">
+				<node imghref="" description="" kind="node"
+					label="Traffic and Emergency Management" type="weifabu" />
+				<node imghref="" description="" kind="node"
+					label="Automatic Highway and Assistant Driving" type="weifabu" />
+			</node>
+		</node>
+	</node>
+	<node imghref="" description="bigkind" category="法律法规" kind="floder"
+		label="Laws/Policy/Stipulations" type="fatherfalv">
+		<node imghref="" description="" kind="floder" label="Energy"
+			type="falv">
+			<node imghref="" description="" kind="node" label="Strategy"
+				type="falv" />
+			<node imghref="" description="" kind="node"
+				label="Energy Saving" type="falv" />
+			<node imghref="" description="" kind="node"
+				label="Recycling" type="falv" />
+			<node imghref="" description="" kind="node"
+				label="Petroleum" type="falv" />
+			<node imghref="" description="" kind="node"
+				label="New  Energy Vehicle" type="falv" />
+		</node>
+		<node imghref="" description="" kind="floder"
+			label="Environmental Protection" type="falv">
+			<node imghref="" description="" kind="node" label="General"
+				type="falv" />
+			<node imghref="" description="" kind="node"
+				label="Implementation Aspects" type="falv" />
+		</node>
+		<node imghref="" description="" kind="floder" label="Quality"
+			type="falv">
+			<node imghref="" description="" kind="node" label="General"
+				type="falv" />
+			<node imghref="" description="" kind="node"
+				label="Auto Quality" type="falv" />
+		</node>
+		<node imghref="" description="" kind="floder"
+			label="Automative Industry" type="falv">
+			<node imghref="" description="" kind="node"
+				label="Stategy &amp; Plann" type="falv" />
+			<node imghref="" description="" kind="node" label="Tax"
+				type="falv" />
+		</node>
+		<node imghref="" description="" kind="floder" label="Safety"
+			type="falv">
+		</node>
+	</node>
+	<node imghref="" description="bigkind" category="认证" kind="floder"
+		label="Homologation" type="fatherrenzheng">
+		<node imghref="" description="" kind="floder" label="CCC"
+			type="renzheng">
+			<node imghref="" description="" kind="node"
+				label="State Council and AQSIQ" type="renzheng" />
+			<node imghref="" description="" kind="node" label="CNCA"
+				type="renzheng" />
+			<node imghref="" description="" kind="node" label="CQC"
+				type="renzheng" />
+			<node imghref="" description="" kind="node" label="CIQ"
+				type="renzheng" />
+		</node>
+		<node imghref="" description="" kind="floder" label="Emission"
+			type="renzheng">
+			<node imghref="" description="" kind="node" label="MEP"
+				type="renzheng" />
+			<node imghref="" description="" kind="node" label="BJEPB"
+				type="renzheng" />
+			<node imghref="" description="" kind="node"
+				label="Local EPB" type="renzheng" />
+		</node>
+		<node imghref="" description="" kind="floder" label="MPS"
+			type="renzheng">
+			<node imghref="" description="" kind="node" label="People"
+				type="renzheng" />
+			<node imghref="" description="" kind="node" label="Vehicle"
+				type="renzheng" />
+			<node imghref="" description="" kind="node" label="Road"
+				type="renzheng" />
+			<node imghref="" description="" kind="node" label="Behavior"
+				type="renzheng" />
+			<node imghref="" description="" kind="node" label="Others"
+				type="renzheng" />
+		</node>
+		<node imghref="" description="" kind="floder" label="Bulletin"
+			type="renzheng">
+		</node>
+	</node>
+	<node imghref="" description="bigkind" category="Information pool"
+		kind="floder" label="Technical Information" type="infor">
+		<node imghref="" description="" kind="floder"
+			label="Important Technical Regulations" type="infor">
+		</node>
+
+		<node imghref="" description="" kind="floder" label="Report"
+			type="ppt">
+			<node imghref="" description="" kind="floder"
+				label="Automotive Safety" type="ppt">
+				<node imghref="" description="" kind="node"
+					label="Active Safety" type="ppt" />
+				<node imghref="" description="" kind="node"
+					label="Accident Research	" type="ppt" />
+				<node imghref="" description="" kind="node"
+					label="C-NCAP" type="ppt" />
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="Environmental Protection &amp; Energy Saving" type="ppt">
+				<node imghref="" description="" kind="node"
+					label="Emission" type="ppt" />
+				<node imghref="" description="" kind="node"
+					label="Fuel Consumption" type="ppt" />
+				<node imghref="" description="" kind="node"
+					label="Fuel Quality" type="ppt" />
+				<node imghref="" description="" kind="node" label="ELV"
+					type="ppt" />
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="Powertrain Technology" type="ppt">
+				<node imghref="" description="" kind="node"
+					label="General" type="ppt" />
+				<node imghref="" description="" kind="node"
+					label="Diesel Engine" type="ppt" />
+				<node imghref="" description="" kind="node"
+					label="Gasoline Engine" type="ppt" />
+				<node imghref="" description="" kind="node"
+					label="Transmission" type="ppt" />
+				<node imghref="" description="" kind="node"
+					label="Methanol" type="ppt" />
+				<node imghref="" description="" kind="node" label="XTL"
+					type="ppt" />
+				<node imghref="" description="" kind="node"
+					label="Ethanol" type="ppt" />
+				<node imghref="" description="" kind="node"
+					label="HEV &amp; EV" type="ppt" />
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="China Homologation" type="ppt">
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="Relevant Industries" type="ppt">
+				<node imghref="" description="" kind="node" label="ITS"
+					type="ppt" />
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="Department" type="survey">
+				<node imghref="" description="" kind="node" label="EL"
+					type="ppt" />
+				<node imghref="" description="" kind="node"
+					label="Databank" type="ppt" />
+			</node>
+		</node>
+
+
+
+
+
+		<node imghref="" description="" kind="floder" label="Survey"
+			type="survey">
+			<node imghref="" description="" kind="floder"
+				label="Automotive Safety" type="survey">
+				<node imghref="" description="" kind="node"
+					label="Active Safety" type="survey" />
+				<node imghref="" description="" kind="node"
+					label="Accident Research	" type="survey" />
+				<node imghref="" description="" kind="node"
+					label="C-NCAP" type="survey" />
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="Environmental Protection &amp; Energy Saving"
+				type="survey">
+				<node imghref="" description="" kind="node"
+					label="Emission" type="survey" />
+				<node imghref="" description="" kind="node"
+					label="Fuel Consumption" type="survey" />
+				<node imghref="" description="" kind="node"
+					label="Fuel Quality" type="survey" />
+				<node imghref="" description="" kind="node" label="ELV"
+					type="survey" />
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="Powertrain Technology" type="survey">
+				<node imghref="" description="" kind="node"
+					label="General" type="survey" />
+				<node imghref="" description="" kind="node"
+					label="Diesel Engine" type="survey" />
+				<node imghref="" description="" kind="node"
+					label="Gasoline Engine" type="survey" />
+				<node imghref="" description="" kind="node"
+					label="Transmission" type="survey" />
+				<node imghref="" description="" kind="node"
+					label="Methanol" type="survey" />
+				<node imghref="" description="" kind="node" label="XTL"
+					type="survey" />
+				<node imghref="" description="" kind="node"
+					label="Ethanol" type="survey" />
+				<node imghref="" description="" kind="node"
+					label="HEV &amp; EV" type="survey" />
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="China Homologation" type="survey">
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="Relevant Industries" type="survey">
+				<node imghref="" description="" kind="node" label="ITS"
+					type="survey" />
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="Department" type="survey">
+				<node imghref="" description="" kind="node" label="EL"
+					type="survey" />
+				<node imghref="" description="" kind="node"
+					label="Databank" type="survey" />
+			</node>
+		</node>
+		<node imghref="" description="" kind="floder" label="Magazine"
+			type="qikan">
+			<node imghref="" description="" kind="floder"
+				label="China Automotive News" type="qikan">
+				<node imghref="" description="" kind="node" label="2009"
+					type="qikan" />
+				<node imghref="" description="" kind="node" label="2008"
+					type="qikan" />
+				<node imghref="" description="" kind="node" label="2007"
+					type="qikan" />
+				<node imghref="" description="" kind="node" label="2006"
+					type="qikan" />
+				<node imghref="" description="" kind="node" label="2005"
+					type="qikan" />
+				<node imghref="" description="" kind="node" label="2004"
+					type="qikan" />
+				<node imghref="" description="" kind="node" label="2003"
+					type="qikan" />
+			</node>
+			<node imghref="" description="" kind="floder"
+				label="Automotive standards development" type="qikan">
+				<node imghref="" description="" kind="node" label="2009"
+					type="qikan" />
+				<node imghref="" description="" kind="node" label="2010"
+					type="qikan" />
+			</node>
+		</node>
+	</node>
+</stage>

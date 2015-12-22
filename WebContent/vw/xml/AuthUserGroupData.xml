@@ -1,0 +1,15 @@
+<node rolename="Group" uuid="qw11" rolecode="home" checked="1">
+	<node rolename="Administrator" roleuuid="aa1" rolecode="1" checked="1">
+		<node rolename="new group1" roleuuid="aa2" rolecode="1" checked="0" />
+	</node>
+	<node rolename="User" roleuuid="aa3" rolecode="2" checked="1">
+		<node rolename="new group1" roleuuid="aa4" rolecode="2" checked="0" />
+		<node rolename="new group2" roleuuid="aa11" rolecode="2" checked="1" />
+		<node rolename="new group3" roleuuid="aa12" rolecode="2" checked="1" />
+		<node rolename="new grou4" roleuuid="aa13" rolecode="2" checked="0" />
+	</node>
+	<node rolename="Read Only" roleuuid="asd" rolecode="3" checked="1">
+		<node rolename="new group" roleuuid="aa6" rolecode="3" checked="1" />
+	</node>
+</node>
+

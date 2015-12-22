@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/was_catonline/!svn/ver/1259/sourcecode/trunk/databankServer/src/org/utmost/common
+END
+UtmostCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/was_catonline/!svn/ver/1259/sourcecode/trunk/databankServer/src/org/utmost/common/UtmostCache.java
+END
+DBSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/was_catonline/!svn/ver/1259/sourcecode/trunk/databankServer/src/org/utmost/common/DBSupport.java
+END
+LogService.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/was_catonline/!svn/ver/1259/sourcecode/trunk/databankServer/src/org/utmost/common/LogService.java
+END
+SpringContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/was_catonline/!svn/ver/1259/sourcecode/trunk/databankServer/src/org/utmost/common/SpringContext.java
+END
+CommService.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/was_catonline/!svn/ver/1259/sourcecode/trunk/databankServer/src/org/utmost/common/CommService.java
+END

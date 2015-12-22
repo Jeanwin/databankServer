@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/was_catonline/!svn/ver/308/sourcecode/trunk/databankServer/db/creation
+END
+create_db.sh
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/was_catonline/!svn/ver/188/sourcecode/trunk/databankServer/db/creation/create_db.sh
+END
+db_create.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/was_catonline/!svn/ver/308/sourcecode/trunk/databankServer/db/creation/db_create.sql
+END

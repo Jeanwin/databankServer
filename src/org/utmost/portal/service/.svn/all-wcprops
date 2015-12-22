@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/was_catonline/!svn/ver/1332/sourcecode/trunk/databankServer/src/org/utmost/portal/service
+END
+TreeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/was_catonline/!svn/ver/1259/sourcecode/trunk/databankServer/src/org/utmost/portal/service/TreeService.java
+END
+LoopedStreams.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/utmost/portal/service/LoopedStreams.java
+END
+ConsoleSimulator.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/was_catonline/!svn/ver/1242/sourcecode/trunk/databankServer/src/org/utmost/portal/service/ConsoleSimulator.java
+END
+ConsoleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/was_catonline/!svn/ver/1236/sourcecode/trunk/databankServer/src/org/utmost/portal/service/ConsoleService.java
+END
+ForceNoCacheFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/was_catonline/!svn/ver/816/sourcecode/trunk/databankServer/src/org/utmost/portal/service/ForceNoCacheFilter.java
+END
+LoongSessionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/was_catonline/!svn/ver/1241/sourcecode/trunk/databankServer/src/org/utmost/portal/service/LoongSessionListener.java
+END
+RuleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/was_catonline/!svn/ver/52/sourcecode/trunk/databankServer/src/org/utmost/portal/service/RuleService.java
+END
+AutoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/was_catonline/!svn/ver/1332/sourcecode/trunk/databankServer/src/org/utmost/portal/service/AutoService.java
+END
+ForumService.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/was_catonline/!svn/ver/1259/sourcecode/trunk/databankServer/src/org/utmost/portal/service/ForumService.java
+END
+RuleEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/was_catonline/!svn/ver/696/sourcecode/trunk/databankServer/src/org/utmost/portal/service/RuleEngine.java
+END

@@ -1,0 +1,25 @@
+Panel {
+   background-color: #FFFFFF;   
+   padding-top: 0;
+   padding-left: 0;
+   padding-right: 0;
+   padding-bottom: 0;
+   header-height: 20;
+   border-thickness-bottom: 5;
+   border-thickness-top: 5;
+   border-thickness-left: 5;
+   border-thickness-right: 5;
+   border-color:#C0C0C0;
+   header-colors: #FFFFFF, #BCC2CD;
+   borderColor: #C0C0C0;
+   borderStyle: solid;   
+}
+
+ApplicationControlBar
+{
+  highlightAlphas: 0.4, 0.05;
+  fillAlphas: 1, 1;
+  fill-colors: #005C96, #000055;
+  backgroundColor: #0055aa;
+}
+

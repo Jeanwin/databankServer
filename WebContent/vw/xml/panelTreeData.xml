@@ -1,0 +1,61 @@
+<node label="">
+	<node label="标准法规" category="标准法规" checked="1">
+		<node label="已发布标准" checked="1">
+			<node label="Node1" checked="1"></node>
+		</node>
+		<node label="未发布标准" checked="1">
+			<node label="Node2" checked="1"></node>
+		</node>
+		<node label="Sub2" checked="1"></node>
+	</node>
+	<node category="法律法规" label="法律法规" checked="1">
+		<node label="Sub0" checked="1">
+			<node label="s1" checked="1"></node>
+		</node>
+		<node label="Sub1" checked="1">
+			<node label="s2" checked="1"></node>
+		</node>
+		<node label="Sub2" checked="1">
+			<node label="s3" checked="1"></node>
+		</node>
+	</node>
+	<node category="认证" label="认证" checked="1">
+		<node label="Sub0" checked="1">
+			<node label="A" checked="1">
+				<node label="B" checked="1">
+					<node label="C" checked="1"></node>
+				</node>
+			</node>
+		</node>
+		<node label="Sub1" checked="1">
+			<node label="ss1" checked="1"></node>
+		</node>
+		<node label="Sub2" checked="0">
+			<node label="ss2" checked="0"></node>
+		</node>
+	</node>
+	<node category="Information pool" label="Information pool"
+		checked="1">
+		<node label="PPT" checked="0">
+			<node label="Sub0" checked="0">
+				<node label="ss" checked="0"></node>
+			</node>
+			<node label="Sub1" checked="1"></node>
+			<node label="Sub2" checked="1"></node>
+		</node>
+		<node label="Survey" checked="0">
+			<node label="Sub0" checked="0">
+				<node label="ss" checked="0"></node>
+			</node>
+			<node label="Sub1" checked="0"></node>
+			<node label="Sub2" checked="1"></node>
+		</node>
+		<node label="期刊" checked="0">
+			<node label="Sub0" checked="0">
+				<node label="ss" checked="0"></node>
+			</node>
+			<node label="Sub1" checked="0"></node>
+			<node label="Sub2" checked="0"></node>
+		</node>
+	</node>
+</node>

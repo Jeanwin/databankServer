@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/was_catonline/!svn/ver/1313/sourcecode/trunk/databankServer/src/test/java/org/utmost/spring/mvc/controller
+END
+UploadControllerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/was_catonline/!svn/ver/1311/sourcecode/trunk/databankServer/src/test/java/org/utmost/spring/mvc/controller/UploadControllerTest.java
+END
+DownloadControllerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/was_catonline/!svn/ver/1313/sourcecode/trunk/databankServer/src/test/java/org/utmost/spring/mvc/controller/DownloadControllerTest.java
+END
+LoginControllerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/was_catonline/!svn/ver/1070/sourcecode/trunk/databankServer/src/test/java/org/utmost/spring/mvc/controller/LoginControllerTest.java
+END
+BatchDownloadControllerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/was_catonline/!svn/ver/1070/sourcecode/trunk/databankServer/src/test/java/org/utmost/spring/mvc/controller/BatchDownloadControllerTest.java
+END

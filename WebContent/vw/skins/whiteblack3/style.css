@@ -1,0 +1,370 @@
+/* CSS file */
+Application {
+	   backgroundColor: #FFFFFF;
+	   backgroundGradientAlphas: 0, 0;
+	   themeColor: #949494;
+	   color: #7F8789;
+	      }
+Panel {
+	borderThicknessLeft: 6;
+	borderThicknessRight: 6;
+	borderThicknessTop: 0;
+	borderThicknessBottom: 6;
+	headerHeight: 24;
+	titleStyleName: "mypanelTitle";
+	backgroundColor: #ffffff;
+	backgroundAlpa:1;
+	}
+
+DataGrid{
+	 font-size: 12;
+}
+
+ComboBox {
+	   cornerRadius: 0;
+	    font-size: 12;
+	}
+DateChooser {
+	   cornerRadius: 0;
+	}
+VBox{
+	font-size: 12;
+}
+
+LinkButton{
+	font-size: 12;
+}
+RadioButton{
+	font-size: 12;
+}
+TextInput{
+	font-size: 12;
+}
+TabNavigator{
+	font-size: 12;
+}
+NumericStepper {
+	   borderStyle: solid;
+	   borderColor: #999999;
+	   backgroundAlpha: 1;
+	   cornerRadius: 0;
+	   border-thickness-left:0;
+	}
+.mypanelTitle {
+		border-alpha:.9;
+	  	color: #335F7D;
+   		fontWeight: bold;
+		headerStyleName: accordionHeader;
+	}
+	TabNavigator {
+	   tabHeight: 22;
+	   horizontalGap: 4;
+	   backgroundAlpha: 1;
+	   borderColor: #A8ADB3;
+	   borderThickness: 1;
+	   tabStyleName: "myTabs";
+	   firstTabStyleName: "myTabs";
+	   lastTabStyleName: "myTabs";
+	   selectedTabTextStyleName: "mySelectedTabs";
+	   tabOffset: 7;
+	}
+	.myTabs {
+	   cornerRadius: 0;
+	   highlightAlphas: 0, 0.1;
+	   fillAlphas: 1.0, 1.0, 1.0, 1.0;
+	   fillColors: #FFFFFF, #FFFFFF;
+	   borderColor: #A8ADB3;
+	   color: #335F7D;
+	   textRollOverColor: #335F7D;
+	   themeColor: #335F7D;		
+	}
+	.mySelectedTabs {
+	   color: #335F7D;
+	   textRollOverColor: #335F7D;
+	}
+	TabBar {
+	   backgroundAlpha: 1;
+	   borderColor: #333333;
+	   borderThickness: 1;
+	   tabStyleName: "myTabs";
+	   firstTabStyleName: "myTabs";
+	   lastTabStyleName: "myTabs";
+	   selectedTabTextStyleName: "mySelectedTabs";
+	 }
+	 .myTabs2 {
+	   cornerRadius: 0;
+	   highlightAlphas: 0.12, 0.1;
+	   fillAlphas: 0.96, 1;
+	   fillColors: #e0e0e0, #cacaca;
+	   borderColor: #585858;
+	   color: #ffffff;
+	   textRollOverColor: #333333;
+	   themeColor: #333333;
+	}
+	.mySelectedTabs2 {
+	   color: #333333;
+	   textRollOverColor: #333333;
+	}
+	TitleWindow {
+		borderColor:#E4E4E5;
+		backgroundColor: #ffffff;	
+		backgroundAlpha: 0.98;
+		border-alpha:0.98;
+		drop-shadow-enabled: false;
+	    cornerRadius: 0;
+	}
+	
+Alert
+{
+	borderColor:#E4E4E5;
+	borderAlpha:.9;
+	borderThicknessLeft: 6;
+	borderThicknessRight: 6;
+	borderThicknessTop: 0;
+	borderThicknessBottom: 6;
+	headerHeight: 24;
+	cornerRadius:4;
+	titleStyleName: "mypanelTitle";
+	backgroundColor:#ffffff;
+	backgroundAlpha:.95; 
+	color:#7F8789; 
+	shadowDistance:0;
+}
+	
+    Button {
+       cornerRadius: 1;
+       paddingTop: 2;
+       paddingBottom: 2;
+       color: #7F8789;
+       textRollOverColor: #4c5356;
+       textSelectedColor: #7F8789;
+       highlightAlphas: 0, 0.2;
+	   fillAlphas: .85, .85, 1, 1;
+	   fillColors: #ededed, #b9b9b9, #ededed, #b9b9b9;
+    }
+    CheckBox {
+		disabledIcon: Embed(source="jukebox.swf", symbol="CheckBox_disabledIcon");
+		downIcon: Embed(source="jukebox.swf", symbol="CheckBox_downIcon");
+		overIcon: Embed(source="jukebox.swf", symbol="CheckBox_overIcon");
+		selectedDisabledIcon: Embed(source="jukebox.swf", symbol="CheckBox_selectedDisabledIcon");
+		selectedDownIcon: Embed(source="jukebox.swf", symbol="CheckBox_selectedDownIcon");
+		selectedOverIcon: Embed(source="jukebox.swf", symbol="CheckBox_selectedOverIcon");
+		selectedUpIcon: Embed(source="jukebox.swf", symbol="CheckBox_selectedUpIcon");
+		upIcon: Embed(source="jukebox.swf", symbol="CheckBox_upIcon");
+		color: #7F8789;
+		textSelectedColor: #000000;
+		textRollOverColor: #000000;
+	}
+	RadioButton
+{
+
+	disabledIcon: Embed(source="jukebox.swf", symbol="RadioButton_disabledIcon");
+	downIcon: Embed(source="jukebox.swf", symbol="RadioButton_downIcon");
+	overIcon: Embed(source="jukebox.swf", symbol="RadioButton_overIcon");
+	selectedDisabledIcon: Embed(source="jukebox.swf", symbol="RadioButtonSelected_disabledIcon");
+	selectedDownIcon: Embed(source="jukebox.swf", symbol="RadioButtonSelected_downIcon");
+	selectedOverIcon: Embed(source="jukebox.swf", symbol="RadioButtonSelected_overIcon");
+	selectedUpIcon: Embed(source="jukebox.swf", symbol="RadioButtonSelected_upIcon");
+	upIcon: Embed(source="jukebox.swf", symbol="RadioButton_upIcon");
+	color: #7F8789;
+	textRollOverColor: #000000;
+	textSelectedColor:#000000;
+}
+	Accordion
+{
+	border-color:			#cfcfcf;
+	background-color:		#f3f3f3;
+}
+
+
+AccordionHeader
+{
+	header-height:			22;
+	border-style:			solid;
+	color:					#333333;
+	text-roll-over-color:	#333333;
+	text-selected-color:	#000000;
+	up-skin:				Embed("/skins/whiteblack2/assets/botones/accordion_barra.png", scaleGridTop="3", scaleGridBottom="19", scaleGridLeft="3", scaleGridRight="74");
+	over-skin:				Embed("/skins/whiteblack2/assets/botones/accordion_barra1.png", scaleGridTop="3", scaleGridBottom="19", scaleGridLeft="3", scaleGridRight="74");	
+	down-skin:				Embed("/skins/whiteblack2/assets/botones/accordion_barra2.png", scaleGridTop="3", scaleGridBottom="19", scaleGridLeft="3", scaleGridRight="74");
+	selected-up-skin:		Embed("/skins/whiteblack2/assets/botones/accordion_barra3.png", scaleGridTop="3", scaleGridBottom="19", scaleGridLeft="3", scaleGridRight="74");
+	selected-over-skin:		Embed("/skins/whiteblack2/assets/botones/accordion_barra3.png", scaleGridTop="3", scaleGridBottom="19", scaleGridLeft="3", scaleGridRight="74");
+	selected-down-skin:		Embed("/skins/whiteblack2/assets/botones/accordion_barra3.png", scaleGridTop="3", scaleGridBottom="19", scaleGridLeft="3", scaleGridRight="74");
+}
+
+	Slider {
+		thumbDisabledSkin: Embed(source="assets/skins/Slider_thumbDisabledSkin.png");
+		thumbDownSkin: Embed(source="assets/skins/Slider_thumbDownSkin.png");
+		thumbOverSkin: Embed(source="assets/skins/Slider_thumbOverSkin.png");
+		thumbUpSkin: Embed(source="assets/skins/Slider_thumbUpSkin.png");
+		trackSkin: Embed(source="assets/skins/Slider_trackSkin.png");
+	}
+	
+	VSlider	{
+		thumbDisabledSkin: Embed(source="assets/skins/Slider_thumbDisabledSkin.png");
+		thumbDownSkin: Embed(source="assets/skins/Slider_thumbDownSkin.png");
+		thumbOverSkin: Embed(source="assets/skins/Slider_thumbOverSkin.png");
+		thumbUpSkin: Embed(source="assets/skins/Slider_thumbUpSkin.png");
+		trackSkin: Embed(source="assets/skins/Slider_trackSkin.png");	
+	}
+	
+	DataGrid {
+		horizontalGridLines: false;
+		horizontalGridLineColor: #E2E2E2;
+		headerStyleName: 			"mydataGridHeaderStyle";
+	   	color:						#7F8789;
+		text-roll-over-color:		#333333;
+		text-selected-color:		#333333;
+		roll-over-color:			#C6DFE7;
+		selection-color:			#A8ADB3;
+		alternating-item-colors:	#f8f8f8, #ffffff;
+		sortArrowSkin:				Embed("/skins/whiteblack2/assets/botones/icon_up.png");
+}
+ 
+.mydataGridHeaderStyle {
+	   textAlign: 				left;
+	   color:					#7F8789;
+	   font-weight:bold;
+}
+AdvancedDataGrid {
+		horizontalGridLines: false;
+		horizontalGridLineColor: #E2E2E2;
+		headerStyleName: 			"mydataGridHeaderStyle";
+	   	color:						#7F8789;
+		text-roll-over-color:		#333333;
+		text-selected-color:		#333333;
+		roll-over-color:			#C6DFE7;
+		selection-color:			#A8ADB3;
+		alternating-item-colors:	#f8f8f8, #ffffff;
+		sortArrowSkin:				Embed("/skins/whiteblack2/assets/botones/icon_up.png");
+}
+Text
+{
+	color: #7F8789;
+}
+
+DateChooser {
+	   cornerRadius: 0;
+	   borderThickness: 1;
+	   horizontalGap: 0;
+	   verticalGap: 6;
+	   headerColors: #666666, #666666;
+	   highlightAlphas: 1, 1;
+	   fillAlphas: 1, 1, 1, 1;
+	   fillColors: #003333, #003399, #009999, #006666;
+	   borderColor: #666666;
+	   backgroundAlpha: 1;
+	   dropShadowEnabled: false;
+	   shadowDistance: 0;
+	   shadowDirection: right;
+	   headerStyleName: "mydateChooserHeaderStyle";   weekDayStyleName: "mydateChooserWeekDayStyle";   todayStyleName: "mydateChooserTodayStyle";
+	}
+
+.mydateChooserHeaderStyle {
+	   color: #ffffff;
+	   fontFamily: Verdana;
+	   fontWeight: bold;
+	   fontStyle: normal;
+	   textDecoration: none;
+	}
+
+	.mydateChooserWeekDayStyle {
+		fontFamily: Georgia;
+	}
+
+	.mydateChooserTodayStyle {
+	   color: #ffffff;
+	   fontWeight: bold;
+	   fontStyle: normal;
+	   textDecoration: none;
+	}
+
+	ScrollBar
+{
+
+	downArrowDisabledSkin: Embed(source="wmp11.swf", symbol="ScrollArrowDown_disabledSkin");
+	downArrowDownSkin: Embed(source="wmp11.swf", symbol="ScrollArrowDown_downSkin");
+	downArrowOverSkin: Embed(source="wmp11.swf", symbol="ScrollArrowDown_overSkin");
+	downArrowUpSkin: Embed(source="wmp11.swf", symbol="ScrollArrowDown_upSkin");
+	thumbDownSkin: Embed(source="wmp11.swf", symbol="ScrollThumb_downSkin");
+	thumbIcon: Embed(source="wmp11.swf", symbol="ScrollBar_thumbIcon");
+	thumbOverSkin: Embed(source="wmp11.swf", symbol="ScrollThumb_overSkin");
+	thumbUpSkin: Embed(source="wmp11.swf", symbol="ScrollThumb_upSkin");
+	trackSkin: Embed(source="wmp11.swf", symbol="ScrollTrack_Skin");
+	upArrowDisabledSkin: Embed(source="wmp11.swf", symbol="ScrollArrowUp_disabledSkin");
+	upArrowDownSkin: Embed(source="wmp11.swf", symbol="ScrollArrowUp_downSkin");
+	upArrowOverSkin: Embed(source="wmp11.swf", symbol="ScrollArrowUp_overSkin");
+	upArrowUpSkin: Embed(source="wmp11.swf", symbol="ScrollArrowUp_upSkin");
+
+}
+
+	Menu {
+		color:#E4E4E5;
+	   	background-color:#67879D;
+	   	background-alpha: 0.8;
+	   	borderStyle: solid;
+		borderThickness: 0;
+		borderColor: #cccccc;
+		rollOverColor: #67879D;
+		text-roll-over-color: #FFFFFF;
+	}
+	
+	MenuBar {
+	   	border-alpha: .3;
+	  	border-color: #666666;
+	   	highlightAlphas: 0, 0;
+	   	fillAlphas: 0.8, 0.8;
+	 	fillColors: #67879D, #67879D;
+	   	color: #ffffff;
+	   	focusAlpha: 1;
+	}
+
+	ComboBox {
+	   dropdownStyleName: "myComboBoxDropDowns";
+	   color: #7F8789;
+	}
+
+	.myComboBoxDropDowns {
+	   borderThickness: 1;
+	   borderColor: #919495;
+	   dropShadowEnabled: false;
+	   shadowDirection: center;
+	   shadowDistance: 0;
+	}
+
+	DateChooser {
+		nextMonthDisabledSkin: Embed(source="assets/skins/DateChooser_nextMonthDisabledSkin.png");
+		nextMonthDownSkin: Embed(source="assets/skins/DateChooser_nextMonthDownSkin.png");
+		nextMonthOverSkin: Embed(source="assets/skins/DateChooser_nextMonthOverSkin.png");
+		nextMonthUpSkin: Embed(source="assets/skins/DateChooser_nextMonthUpSkin.png");
+		prevMonthDisabledSkin: Embed(source="assets/skins/DateChooser_prevMonthDisabledSkin.png");
+		prevMonthDownSkin: Embed(source="assets/skins/DateChooser_prevMonthDownSkin.png");
+		prevMonthOverSkin: Embed(source="assets/skins/DateChooser_prevMonthOverSkin.png");
+		prevMonthUpSkin: Embed(source="assets/skins/DateChooser_prevMonthUpSkin.png");
+	}
+	
+	DateField {
+		disabledSkin: Embed(source="assets/skins/DateField_disabledSkin.png");
+		downSkin: Embed(source="assets/skins/DateField_downSkin.png");
+		overSkin: Embed(source="assets/skins/DateField_overSkin.png");
+		upSkin: Embed(source="assets/skins/DateField_upSkin.png");
+	}
+	
+	LinkButton {
+		fontFamily:Verdana;
+		color: #7F8789;
+	}
+	
+	Tree
+	{
+		fontFamily:Verdana;
+		font-size:10px;
+		color:#A8ADB3;
+		selectionColor:#FFFFFF;
+		rollOverColor:#FFFFFF;
+		textRollOverColor:#4C5356;
+		textSelectedColor:#4C5356;
+		defaultLeafIcon: ClassReference(null);
+		folderClosedIcon: ClassReference(null);
+		folderOpenIcon: ClassReference(null);
+	}

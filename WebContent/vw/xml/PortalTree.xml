@@ -1,0 +1,22 @@
+<node label="SystemTree" labelCn="系统树">
+	<node label="Portal Management" labelCn="门户管理">
+		<node label="Authorization Management" labelCn="权限管理">
+			<node label="User" labelCn="用户" icon="icons/full_list.png"
+				showInList="true" module="module/auth/AuthUserModule.swf" />
+			<node label="Group" labelCn="用户组" showInList="true"
+				module="module/auth/AuthGroupModule.swf" />
+			<node label="Group Assignment" labelCn="用户组分配" showInList="true"
+				module="module/auth/AuthUserGroupModule.swf" />
+			<!-- 
+				<node label="Function Assignment" showInList="true"
+				module="module/auth/AuthGroupFunc.swf" />
+				
+			-->
+			<node label="Operation Right" labelCn="操作权限" showInList="true"
+				module="module/auth/AuthGroupPermissions.swf" />
+			<node label="Users Monitoring" labelCn="用户监控" showInList="true"
+				module="module/auth/AuthUsersMonitorMudule.swf" />
+
+		</node>
+	</node>
+</node>

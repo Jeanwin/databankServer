@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping >
+	<class entity-name="U_PORTAL_FUNC" table="U_PORTAL_FUNC">
+	<cache usage="read-write"/>
+		<id name="uuid" column="UUID" length="36" type="java.lang.String">
+			<generator class="assigned" />
+		</id>
+		<property name="pid" type="java.lang.String">
+			<column length="36" name="PID">
+			<!-- 
+				<comment>父节点UUID</comment>
+			 -->
+			</column>
+		</property>
+		<property name="classuuid" type="java.lang.String">
+			<column length="36" name="CLASSUUID">
+			<!-- 
+				<comment>大类UUID</comment>
+			 -->
+			</column>
+		</property>
+		<property name="funccode" type="java.lang.String">
+			<column length="128" name="FUNCCODE">
+			<!-- 
+				<comment>功能编码</comment>
+				 -->
+			</column>
+		</property>
+		<property name="funcname" type="java.lang.String">
+			<column length="256" name="FUNCNAME">
+			<!-- 
+				<comment>功能名称</comment>
+				 -->
+			</column>
+		</property>
+		<property name="funccnname" type="java.lang.String">
+			<column length="256" name="FUNC_CN_NAME">
+			<!-- 
+				<comment>功能中文名称</comment>
+				 -->
+			</column>
+		</property>
+		<property name="funcdesc" type="java.lang.String">
+			<column length="256" name="FUNCDESC">
+			<!-- 
+				<comment>功能描述</comment>
+				 -->
+			</column>
+		</property>
+		<property name="funccndesc" type="java.lang.String">
+			<column length="256" name="FUNC_CN_DESC">
+			<!-- 
+				<comment>功能中文描述</comment>
+				 -->
+			</column>
+		</property>
+		<property name="funcpath" type="java.lang.String">
+			<column length="1024" name="FUNCPATH">
+			<!-- 
+				<comment>链接路径</comment>
+				 -->
+			</column>
+		</property>
+		<property name="funcicon" type="java.lang.String">
+			<column length="1024" name="FUNCICON">
+			<!-- 
+				<comment>功能图标</comment>
+				 -->
+			</column>
+		</property>
+		<property name="nodetype" type="java.lang.String">
+            <column name="NODETYPE" length="36" >
+            <!-- 
+				<comment>节点类型</comment>
+				 -->
+            </column>
+        </property>
+        <property name="functype" type="java.lang.String">
+            <column name="FUNCTYPE" length="36" >
+           	<!-- 
+			<comment>目录结构类型</comment>
+			 -->
+            </column>
+        </property>
+        <property name="funcindex" type="java.lang.Long">
+            <column name="FUNCINDEX" length="12" >
+            <!-- 
+				<comment>兄弟类间序号</comment>
+				 -->
+            </column>
+        </property>
+        <property name="funcscope" type="java.lang.String">
+			<column length="36" name="FUNCSCOPE">
+			<!-- 
+				<comment>功能树作用范围</comment>
+			 -->
+			</column>
+		</property>
+		<property name="state" type="java.lang.String">
+			<column length="36" name="STATE">
+			<!-- 
+				<comment>状态</comment>
+				 -->
+			</column>
+		</property>
+		<property name="isdelete" type="java.lang.String">
+			<column length="36" name="ISDELETE">
+			<!-- 
+				<comment>状态</comment>
+				 -->
+			</column>
+		</property>
+	</class>
+</hibernate-mapping>

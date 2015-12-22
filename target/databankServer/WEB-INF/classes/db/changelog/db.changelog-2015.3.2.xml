@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.3.xsd http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+	 <changeSet author="victor" id="201512071334">
+       <sql>insert into u_portal_func values('20151214155511','0', '20151214155511', null, '导出', 'Export', null, null, '2', '2', '1', '2', '1', null, null, null);</sql>
+	   <sql>update U_PORTAL_FUNC set PID='20151214155511', CLASSUUID='20151214155511' where UUID='0903';</sql>
+	   <sql>update U_PORTAL_FUNC set isdelete='1' where uuid='0901';</sql>
+	   <sql>update U_PORTAL_FUNC set FUNCNAME='搜索', funcdesc='Search' where uuid='0902';</sql>
+	   <sql>commit;</sql>
+    </changeSet>
+	 <changeSet author="victor" id="201512181142">
+       <sql>insert into b_govenor_code values('15','Others');</sql>
+    </changeSet>
+	<changeSet author="victor" id="201512181446" >
+        <addColumn tableName="b_commondata">     
+			<column name="GORVERNOR_CODE_UUID_OTHERS" type="varchar(100 char)">     
+			</column>     
+		</addColumn>  		
+    </changeSet> 
+</databaseChangeLog>

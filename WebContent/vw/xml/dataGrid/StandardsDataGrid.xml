@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSet>
+	<colSet>
+		<colObj columnName="@standardNo" headerText="No."
+			width="110" />
+		<colObj columnName="@standardTitleInEnglish"
+			headerText="Standard Title in English" width="180" />
+		<colObj columnName="@titleEn" headerText="Title_EN" width="80" />
+		<colObj columnName="@standardTitleInChinese"
+			headerText="Standard Title in Chinese" width="180" />
+		<colObj columnName="@titleCh" headerText="Title_CH" width="100" />
+		<colObj columnName="@adoptedInternationalStandardNo"
+			headerText="Adopted International Standard No." width="260" />
+			<colObj columnName="@summary" headerText="sum." renderer="downLoadImage" width="170" />
+		<colObj columnName="@applicationDegree"
+			headerText="Application Degree" width="150" />
+		<colObj columnName="@governorAndCode"
+			headerText="Governor and Code" width="155" />
+		<colObj columnName="@technicalCommitteesAndCode"
+			headerText="Technical Committees and code" width="250" />
+		<colObj columnName="@draftingCommittee"
+			headerText="Drafting Committee" width="155" />
+		<colObj columnName="@planNo" headerText="Plan No." width="100" />
+		<colObj columnName="@issuanceDate" headerText="Issuance Date"
+			width="150" />
+		<colObj columnName="@preExecuteDate"
+			headerText="Pre-Execute Date" width="155" />
+		<colObj columnName="@executeDate" headerText="exe-Date"
+			width="165" />
+		<colObj columnName="@executeDate2"
+			headerText="exe-Date(在产车实施日期)" width="200" />
+		<colObj headerText="Download">
+			<colObj columnName="@downloadEN" headerText="EN" width="60" />
+			<colObj columnName="@downloadCH" headerText="CH" width="60" />
+			<colObj columnName="@downloadECE-R" headerText="ECE-R"
+				width="60" />
+			<colObj columnName="@downloadEEC" headerText="EEC"
+				width="60" />
+			<colObj columnName="@downloadFMVSS" headerText="FMVSS"
+				width="60" />
+			<colObj columnName="@downloadOthers" headerText="Others"
+				width="60" />
+			<colObj columnName="@doc" headerText="Doc" width="60" />
+		</colObj>
+		<colObj columnName="@applicability" headerText="Applicability"
+			width="185" />
+		<colObj columnName="@replacedStandard"
+			headerText="Replaced Standard" width="110" />
+		<colObj columnName="@parts" headerText="Parts" width="65" />
+		<colObj columnName="@mandatory " headerText="Mandatory "
+			width="120" />
+		<colObj columnName="@CCC" headerText="CCC" width="100" />
+		<colObj columnName="@bulletin" headerText="Bulletin" width="80" />
+		<colObj columnName="@remark" headerText="Remark" width="150" />
+	</colSet>
+</dataSet>

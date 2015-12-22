@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  	<dataSet>
+          <colSet>
+              <colObj columnName="@source" headerText="Source" width="90"/>
+              <colObj columnName="@documentNo" headerText="Document No." width="120"/>
+              <colObj columnName="@sort" headerText="Sort" width="90"/>
+              <colObj columnName="@titleEnglish" headerText="Title in English" width="120"/>
+              <colObj columnName="@titleEn" headerText="Title_EN" width="100"/>
+              <colObj columnName="@titleChinese" headerText="Title in Chinese" width="150"/>
+              <colObj columnName="@titleCh" headerText="Title_CH" width="100"/>
+               <colObj columnName="@summary" headerText="sum." renderer="downLoadImage" width="110"/>
+              <colObj columnName="@issuanceDate" headerText="Issuance Date" width="150"/>
+              <colObj columnName="@executeDate" headerText="Execute Date" width="165"/>
+              <colObj columnName="@preExecuteDate" headerText="Pre-Execute Date" width="155"/>
+              <colObj headerText="Download">
+                  <colObj columnName="@downloadEN" headerText="EN" width="70"/>
+                  <colObj columnName="@downloadCH" headerText="CH" width="70"/>
+                  <colObj columnName="@doc" headerText="Doc" width="70"/>
+              </colObj> 
+          </colSet>
+    </dataSet>

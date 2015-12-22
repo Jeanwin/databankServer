@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping >
+	<class entity-name="U_USER_DOWNLOAD_LIST" table="U_USER_DOWNLOAD_LIST">
+	<cache usage="read-write"/>
+		<id name="uuid" type="java.lang.String">
+            <column name="UUID" length="36" />
+            <generator class="uuid" />
+        </id>
+		<property name="func_uuid" type="java.lang.String">
+			<column length="36" name="FUNC_UUID">
+			</column>
+		</property>
+		<property name="user_uuid" type="java.lang.String">
+			<column length="36" name="USER_UUID">
+			</column>
+		</property>
+		<property name="document_type" type="java.lang.String">
+			<column length="50" name="DOCUMENT_TYPE">
+			</column>
+		</property>
+		<property name="document_title" type="java.lang.String">
+			<column length="500" name="DOCUMENT_TITLE">
+			</column>
+		</property>
+		<property name="is_history" type="java.lang.String">
+			<column length="1" name="IS_HISTORY">
+			</column>
+		</property>
+		
+		<property name="add_date_str" type="java.lang.String">
+			<column length="10" name="ADD_DATE_STR"/>
+		</property>
+		<property name="download_date_str" type="java.lang.String">
+			<column length="10" name="DOWNLOAD_DATE_STR">
+			</column>
+		</property>
+	</class>
+</hibernate-mapping>

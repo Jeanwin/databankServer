@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/was_catonline/!svn/ver/1105/sourcecode/trunk/databankServer/src/test/java/vgc/databank/util
+END
+DownloadListUtilTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/was_catonline/!svn/ver/1088/sourcecode/trunk/databankServer/src/test/java/vgc/databank/util/DownloadListUtilTest.java
+END
+ExcelStyleTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/was_catonline/!svn/ver/1088/sourcecode/trunk/databankServer/src/test/java/vgc/databank/util/ExcelStyleTest.java
+END
+UserManageUtilTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/was_catonline/!svn/ver/1093/sourcecode/trunk/databankServer/src/test/java/vgc/databank/util/UserManageUtilTest.java
+END
+CommonToolsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/was_catonline/!svn/ver/1104/sourcecode/trunk/databankServer/src/test/java/vgc/databank/util/CommonToolsTest.java
+END
+ContactUtilTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/was_catonline/!svn/ver/1088/sourcecode/trunk/databankServer/src/test/java/vgc/databank/util/ContactUtilTest.java
+END
+FuncUtilTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/was_catonline/!svn/ver/1097/sourcecode/trunk/databankServer/src/test/java/vgc/databank/util/FuncUtilTest.java
+END
+ExcelCellUtilTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/was_catonline/!svn/ver/1088/sourcecode/trunk/databankServer/src/test/java/vgc/databank/util/ExcelCellUtilTest.java
+END

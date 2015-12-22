@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<obj
+		state="Effect"
+		titleEnglish="Photometric Characteristics of Rear Fog Lamp for Motor Vehicles and Their Trailers"
+		titleEn="Photometric Characteristics of Rear Fog Lamp"
+		titleChinese="汽车及挂车后雾灯配光性能"
+		titleCh="后雾灯配光性能"
+		issuanceDate="2007-12-3"
+		executeDate="2007-12-3"
+		preExecuteDate="2007-12-3"
+		remark="Remark"
+		author="Dr. Peter Schulenberg / Dr. Mark Gonter"
+		paper="CH,EN"
+		downloadEN="EN"
+		downloadCH="CH"
+		doc="doc"
+		/>
+ </data>

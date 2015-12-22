@@ -1,0 +1,216 @@
+<node>
+	<one>1</one>
+	<two>
+		Photometric Characteristics of Rear Fog Lamp for Motor Vehicles
+		and Their Trailers
+	</two>
+	<three>汽车及挂车后雾灯配光性能</three>
+	<four>ECE-R 38,77/538/EEC,FMVSS 106,IEC 34556,ISO</four>
+	<five>CH,EN</five>
+	<six>IDT</six>
+	<serven>SC18 车身</serven>
+	<eight>MOFCOM,MIIT,MPS,MOF,SAT,CBRC,CIRC</eight>
+	<night>Dr. Peter Schulenberg/Dr. Mark Gonter</night>
+	<ten>1999-10-01</ten>
+	<eleven></eleven>
+	<twelve></twelve>
+	<img>img/light/yellow_light.png</img>
+</node>
+<node>
+	<one>2</one>
+	<two>
+		Photometric Characteristics of Rear Fog Lamp for Motor Vehicles
+		and Their Trailers
+	</two>
+	<three>汽车及挂车后雾灯配光性能</three>
+	<four>ECE-R 38,77/538/EEC,FMVSS 106,IEC 34556,ISO</four>
+	<five>CH,EN</five>
+	<six>IDT</six>
+	<serven>SC18 车身</serven>
+	<eight>MOFCOM,MIIT,MPS,MOF,SAT,CBRC,CIRC</eight>
+	<night>Dr. Peter Schulenberg/Dr. Mark Gonter</night>
+	<ten>1999-10-01</ten>
+	<img>img/light/red_light.png</img>
+	<eleven></eleven>
+	<twelve></twelve>
+</node>
+<node>
+	<one>3</one>
+	<two>
+		Photometric Characteristics of Rear Fog Lamp for Motor Vehicles
+		and Their Trailers
+	</two>
+	<three>汽车及挂车后雾灯配光性能</three>
+	<four>ECE-R 38,77/538/EEC,FMVSS 106,IEC 34556,ISO</four>
+	<five>CH,EN</five>
+	<six>IDT</six>
+	<serven>SC18 车身</serven>
+	<eight>MOFCOM,MIIT,MPS,MOF,SAT,CBRC,CIRC</eight>
+	<night>Dr. Peter Schulenberg/Dr. Mark Gonter</night>
+	<ten>1999-10-01</ten>
+	<eleven></eleven>
+	<twelve></twelve>
+	<img>img/light/red_light.png</img>
+</node>
+<node>
+	<one>4</one>
+	<two>
+		Photometric Characteristics of Rear Fog Lamp for Motor Vehicles
+		and Their Trailers
+	</two>
+	<three>汽车及挂车后雾灯配光性能</three>
+	<four>ECE-R 38,77/538/EEC,FMVSS 106,IEC 34556,ISO</four>
+	<five>CH,EN</five>
+	<six>IDT</six>
+	<serven>SC18 车身</serven>
+	<eight>MOFCOM,MIIT,MPS,MOF,SAT,CBRC,CIRC</eight>
+	<night>Dr. Peter Schulenberg/Dr. Mark Gonter</night>
+	<ten>1999-10-01</ten>
+	<eleven></eleven>
+	<twelve></twelve>
+	<img>img/light/green_light.png</img>
+</node>
+<node>
+	<one>5</one>
+	<two>
+		Photometric Characteristics of Rear Fog Lamp for Motor Vehicles
+		and Their Trailers
+	</two>
+	<three>汽车及挂车后雾灯配光性能</three>
+	<four>ECE-R 38,77/538/EEC,FMVSS 106,IEC 34556,ISO</four>
+	<five>CH,EN</five>
+	<six>IDT</six>
+	<serven>SC18 车身</serven>
+	<eight>MOFCOM,MIIT,MPS,MOF,SAT,CBRC,CIRC</eight>
+	<night>Dr. Peter Schulenberg/Dr. Mark Gonter</night>
+	<ten>1999-10-01</ten>
+	<eleven></eleven>
+	<twelve></twelve>
+	<img>img/light/yellow_light.png</img>
+</node>
+<node>
+	<one>6</one>
+	<two>
+		Photometric Characteristics of Rear Fog Lamp for Motor Vehicles
+		and Their Trailers
+	</two>
+	<three>汽车及挂车后雾灯配光性能</three>
+	<four>ECE-R 38,77/538/EEC,FMVSS 106,IEC 34556,ISO</four>
+	<five>CH,EN</five>
+	<six>IDT</six>
+	<serven>SC18 车身</serven>
+	<eight>MOFCOM,MIIT,MPS,MOF,SAT,CBRC,CIRC</eight>
+	<night>Dr. Peter Schulenberg/Dr. Mark Gonter</night>
+	<ten>1999-10-01</ten>
+	<eleven></eleven>
+	<twelve></twelve>
+	<img>img/light/red_light.png</img>
+</node>
+<node>
+	<one>7</one>
+	<two>
+		Photometric Characteristics of Rear Fog Lamp for Motor Vehicles
+		and Their Trailers
+	</two>
+	<three>汽车及挂车后雾灯配光性能</three>
+	<four>ECE-R 38,77/538/EEC,FMVSS 106,IEC 34556,ISO</four>
+	<five>CH,EN</five>
+	<six>IDT</six>
+	<serven>SC18 车身</serven>
+	<eight>MOFCOM,MIIT,MPS,MOF,SAT,CBRC,CIRC</eight>
+	<night>Dr. Peter Schulenberg/Dr. Mark Gonter</night>
+	<ten>1999-10-01</ten>
+	<eleven></eleven>
+	<twelve></twelve>
+	<img>img/light/green_light.png</img>
+</node>
+<node>
+	<one>8</one>
+	<two>
+		Photometric Characteristics of Rear Fog Lamp for Motor Vehicles
+		and Their Trailers
+	</two>
+	<three>汽车及挂车后雾灯配光性能</three>
+	<four>ECE-R 38,77/538/EEC,FMVSS 106,IEC 34556,ISO</four>
+	<five>CH,EN</five>
+	<six>IDT</six>
+	<serven>SC18 车身</serven>
+	<eight>MOFCOM,MIIT,MPS,MOF,SAT,CBRC,CIRC</eight>
+	<night>Dr. Peter Schulenberg/Dr. Mark Gonter</night>
+	<ten>1999-10-01</ten>
+	<eleven></eleven>
+	<twelve></twelve>
+	<img>img/light/yellow_light.png</img>
+</node>
+<node>
+	<one>9</one>
+	<two>
+		Photometric Characteristics of Rear Fog Lamp for Motor Vehicles
+		and Their Trailers
+	</two>
+	<three>汽车及挂车后雾灯配光性能</three>
+	<four>ECE-R 38,77/538/EEC,FMVSS 106,IEC 34556,ISO</four>
+	<five>CH,EN</five>
+	<six>IDT</six>
+	<serven>SC18 车身</serven>
+	<eight>MOFCOM,MIIT,MPS,MOF,SAT,CBRC,CIRC</eight>
+	<night>Dr. Peter Schulenberg/Dr. Mark Gonter</night>
+	<ten>1999-10-01</ten>
+	<eleven></eleven>
+	<twelve></twelve>
+	<img>img/light/red_light.png</img>
+</node>
+<node>
+	<one>10</one>
+	<two>
+		Photometric Characteristics of Rear Fog Lamp for Motor Vehicles
+		and Their Trailers
+	</two>
+	<three>汽车及挂车后雾灯配光性能</three>
+	<four>ECE-R 38,77/538/EEC,FMVSS 106,IEC 34556,ISO</four>
+	<five>CH,EN</five>
+	<six>IDT</six>
+	<serven>SC18 车身</serven>
+	<eight>MOFCOM,MIIT,MPS,MOF,SAT,CBRC,CIRC</eight>
+	<night>Dr. Peter Schulenberg/Dr. Mark Gonter</night>
+	<ten>1999-10-01</ten>
+	<eleven></eleven>
+	<twelve></twelve>
+	<img>img/light/red_light.png</img>
+</node>
+<node>
+	<one>11</one>
+	<two>
+		Photometric Characteristics of Rear Fog Lamp for Motor Vehicles
+		and Their Trailers
+	</two>
+	<three>汽车及挂车后雾灯配光性能</three>
+	<four>ECE-R 38,77/538/EEC,FMVSS 106,IEC 34556,ISO</four>
+	<five>CH,EN</five>
+	<six>IDT</six>
+	<serven>SC18 车身</serven>
+	<eight>MOFCOM,MIIT,MPS,MOF,SAT,CBRC,CIRC</eight>
+	<night>Dr. Peter Schulenberg/Dr. Mark Gonter</night>
+	<ten>1999-10-01</ten>
+	<eleven></eleven>
+	<twelve></twelve>
+	<img>img/light/green_light.png</img>
+</node>
+<node>
+	<one>12</one>
+	<two>
+		Photometric Characteristics of Rear Fog Lamp for Motor Vehicles
+		and Their Trailers
+	</two>
+	<three>汽车及挂车后雾灯配光性能</three>
+	<four>ECE-R 38,77/538/EEC,FMVSS 106,IEC 34556,ISO</four>
+	<five>CH,EN</five>
+	<six>IDT</six>
+	<serven>SC18 车身</serven>
+	<eight>MOFCOM,MIIT,MPS,MOF,SAT,CBRC,CIRC</eight>
+	<night>Dr. Peter Schulenberg/Dr. Mark Gonter</night>
+	<ten>1999-10-01</ten>
+	<eleven></eleven>
+	<twelve></twelve>
+	<img>img/light/yellow_light.png</img>
+</node>
